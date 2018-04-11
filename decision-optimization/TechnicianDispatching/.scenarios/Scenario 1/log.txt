@@ -1,1179 +1,215 @@
-[2018-04-11T06:17:27Z, INFO] * building wado model
-[2018-04-11T06:17:27Z, INFO] model building done in 0.302818059921 secs
-[2018-04-11T06:17:27Z, INFO] * running wado model
-[2018-04-11T06:17:27Z, INFO] WARNING: Number of workers has been reduced to 1 to comply with platform limitations.
-[2018-04-11T06:17:28Z, INFO] stream:7:4: Warning: Reading file created by CP Optimizer version 12.7.0.0 into CP Optimizer version 12.8.0.0.
-[2018-04-11T06:17:28Z, INFO] stream:7:4: Warning: Making reader backward compatible with version 12.7.0.0.
-[2018-04-11T06:17:28Z, INFO]  ! ----------------------------------------------------------------------------
-[2018-04-11T06:17:28Z, INFO]  ! Minimization problem - 3339 variables, 812 constraints
-[2018-04-11T06:17:28Z, INFO]  ! TimeLimit            = 120
-[2018-04-11T06:17:28Z, INFO]  ! Workers              = 1
-[2018-04-11T06:17:28Z, INFO]  ! Initial process time : 0.15s (0.15s extraction + 0.00s propagation)
-[2018-04-11T06:17:28Z, INFO]  !  . Log search space  : 38859.0 (before), 38859.0 (after)
-[2018-04-11T06:17:28Z, INFO]  !  . Memory usage      : 15.3 MB (before), 15.3 MB (after)
-[2018-04-11T06:17:28Z, INFO]  ! Using sequential search.
-[2018-04-11T06:17:28Z, INFO]  ! ----------------------------------------------------------------------------
-[2018-04-11T06:17:28Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:17:28Z, INFO]                         0       3339                 -
-[2018-04-11T06:17:28Z, INFO]  + New bound is 90
-[2018-04-11T06:17:28Z, INFO]  ! Using temporal relaxation.
-[2018-04-11T06:17:28Z, INFO]                      1173        139        F   on _ITV_1679
-[2018-04-11T06:17:28Z, INFO]                      2037        139        F   on _ITV_1381
-[2018-04-11T06:17:28Z, INFO]                      3000        139            on _ITV_1505
-[2018-04-11T06:17:28Z, INFO]                      4000       1807            on _ITV_1973
-[2018-04-11T06:17:28Z, INFO]                      5000        807            on _ITV_2830
-[2018-04-11T06:17:28Z, INFO]  *           204     5629  0.79s               (gap is 55.88%)
-[2018-04-11T06:17:28Z, INFO] Objective values: (204,)
-[2018-04-11T06:17:28Z, INFO] time to complete all operations
-[2018-04-11T06:17:28Z, INFO] -->
-[2018-04-11T06:17:28Z, INFO] 204
-[2018-04-11T06:17:28Z, INFO] solution export done in 0.0351657867432 secs
-[2018-04-11T06:17:29Z, INFO]              204     6000          3            on _ITV_776
-[2018-04-11T06:17:29Z, INFO]              204     7000        893            on _ITV_393
-[2018-04-11T06:17:29Z, INFO]  *           170     7533  1.07s               (gap is 47.06%)
-[2018-04-11T06:17:29Z, INFO] Objective values: (170,)
-[2018-04-11T06:17:29Z, INFO] time to complete all operations
-[2018-04-11T06:17:29Z, INFO] -->
-[2018-04-11T06:17:29Z, INFO] 170
-[2018-04-11T06:17:29Z, INFO] solution export done in 0.027664899826 secs
-[2018-04-11T06:17:29Z, INFO]              170     8000          3            on _ITV_1330
-[2018-04-11T06:17:29Z, INFO]              170     9000       2322            on _ITV_3189
-[2018-04-11T06:17:29Z, INFO]              170    10000       1322            on _ITV_691
-[2018-04-11T06:17:29Z, INFO]              170    11000        306            on _ITV_306
-[2018-04-11T06:17:29Z, INFO]              170    12000        295            on _ITV_2498
-[2018-04-11T06:17:29Z, INFO]              170    13000       1417            on _ITV_893
-[2018-04-11T06:17:29Z, INFO]              170    14000        417            on _ITV_1725
-[2018-04-11T06:17:30Z, INFO]              170    15000        105            on _ITV_2772
-[2018-04-11T06:17:30Z, INFO]  *           167    15137  1.83s               (gap is 46.11%)
-[2018-04-11T06:17:30Z, INFO] Objective values: (167,)
-[2018-04-11T06:17:30Z, INFO] time to complete all operations
-[2018-04-11T06:17:30Z, INFO] -->
-[2018-04-11T06:17:30Z, INFO] 167
-[2018-04-11T06:17:30Z, INFO] solution export done in 0.0303709506989 secs
-[2018-04-11T06:17:30Z, INFO]  *           111    15690  1.90s               (gap is 18.92%)
-[2018-04-11T06:17:30Z, INFO]  ! Time = 1.90s, Average fail depth = 912, Memory usage = 30.9 MB
-[2018-04-11T06:17:30Z, INFO]  ! Current bound is 90 (gap is 18.92%)
-[2018-04-11T06:17:30Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:17:30Z, INFO] Objective values: (111,)
-[2018-04-11T06:17:30Z, INFO] time to complete all operations
-[2018-04-11T06:17:30Z, INFO] -->
-[2018-04-11T06:17:30Z, INFO] 111
-[2018-04-11T06:17:30Z, INFO] solution export done in 0.0283219814301 secs
-[2018-04-11T06:17:30Z, INFO]              111    16000          1            on _ITV_3231
-[2018-04-11T06:17:30Z, INFO]  *           107    16242  2.00s               (gap is 15.89%)
-[2018-04-11T06:17:30Z, INFO] Objective values: (107,)
-[2018-04-11T06:17:30Z, INFO] time to complete all operations
-[2018-04-11T06:17:30Z, INFO] -->
-[2018-04-11T06:17:30Z, INFO] 107
-[2018-04-11T06:17:30Z, INFO] solution export done in 0.0290009975433 secs
-[2018-04-11T06:17:30Z, INFO]              107    17000         20            on _ITV_1777
-[2018-04-11T06:17:30Z, INFO]              107    18000        508            on _ITV_3112
-[2018-04-11T06:17:30Z, INFO]              107    19000        343            on _ITV_2995
-[2018-04-11T06:17:30Z, INFO]              107    20000        338            on _ITV_2989
-[2018-04-11T06:17:30Z, INFO]              107    21000        337            on _ITV_397
-[2018-04-11T06:17:31Z, INFO]              107    22000       2141            on _ITV_1849
-[2018-04-11T06:17:31Z, INFO]              107    23000       1141            on _ITV_2149
-[2018-04-11T06:17:31Z, INFO]              107    24000        268            on _ITV_147
-[2018-04-11T06:17:31Z, INFO]              107    25000         37        F   on _ITV_59
-[2018-04-11T06:17:31Z, INFO]              107    26000         60            on _ITV_191
-[2018-04-11T06:17:31Z, INFO]              107    27000       2186            on _ITV_1160
-[2018-04-11T06:17:31Z, INFO]              107    28000       1186            on _ITV_2346
-[2018-04-11T06:17:31Z, INFO]              107    29000        271        F   on _ITV_3087
-[2018-04-11T06:17:31Z, INFO]              107    30000        271            on _ITV_133
-[2018-04-11T06:17:31Z, INFO]              107    31000          8        F   on _ITV_153
-[2018-04-11T06:17:31Z, INFO]              107    32000         75        F   on _ITV_46
-[2018-04-11T06:17:32Z, INFO]              107    33000         60            on _ITV_2382
-[2018-04-11T06:17:32Z, INFO]              107    34000       1361            on _ITV_2368
-[2018-04-11T06:17:32Z, INFO]  ! Time = 3.60s, Average fail depth = 784, Memory usage = 31.1 MB
-[2018-04-11T06:17:32Z, INFO]  ! Current bound is 90 (gap is 15.89%)
-[2018-04-11T06:17:32Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:17:32Z, INFO]              107    35000        344        F   on _ITV_1086
-[2018-04-11T06:17:32Z, INFO]              107    36000        344        F   on _ITV_2992
-[2018-04-11T06:17:32Z, INFO]              107    37000        338            on _ITV_2205
-[2018-04-11T06:17:32Z, INFO]              107    38000        338        F   on _ITV_3107
-[2018-04-11T06:17:32Z, INFO]              107    39000        336            on _ITV_1199
-[2018-04-11T06:17:32Z, INFO]              107    40000        337            on _ITV_1524
-[2018-04-11T06:17:32Z, INFO]              107    41000       1721            on _ITV_891
-[2018-04-11T06:17:32Z, INFO]              107    42000        721            on _ITV_2821
-[2018-04-11T06:17:32Z, INFO]              107    43000        269        F   on _ITV_2666
-[2018-04-11T06:17:32Z, INFO]              107    44000        179            on _ITV_2090
-[2018-04-11T06:17:32Z, INFO]              107    45000        113            on _ITV_194
-[2018-04-11T06:17:32Z, INFO]              107    46000         60        F   on _ITV_68
-[2018-04-11T06:17:33Z, INFO]              107    47000          2            on _ITV_405
-[2018-04-11T06:17:33Z, INFO]              107    48000          2            on _ITV_374
-[2018-04-11T06:17:33Z, INFO]              107    49000          1            on _ITV_1792
-[2018-04-11T06:17:33Z, INFO]  ! Using failure-directed search.
-[2018-04-11T06:17:33Z, INFO]              107    50000        249        F   on _ITV_2669
-[2018-04-11T06:17:34Z, INFO]              107    51000          2        F   on _ITV_739
-[2018-04-11T06:17:34Z, INFO]              107    52000          2        F   on _ITV_2424
-[2018-04-11T06:17:34Z, INFO]              107    53000          2        F   on _ITV_461
-[2018-04-11T06:17:34Z, INFO]              107    54000          2        F   on _ITV_1646
-[2018-04-11T06:17:34Z, INFO]  ! Time = 6.47s, Average fail depth = 376, Memory usage = 28.6 MB
-[2018-04-11T06:17:34Z, INFO]  ! Current bound is 90 (gap is 15.89%)
-[2018-04-11T06:17:34Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:17:35Z, INFO]              107    55000       3290        F   on _ITV_646
-[2018-04-11T06:17:35Z, INFO]              107    56000       3318        F   on _ITV_134
-[2018-04-11T06:17:36Z, INFO]              107    57000       3339        F   on _ITV_86
-[2018-04-11T06:17:36Z, INFO]              107    58000       3339        F   on _ITV_61
-[2018-04-11T06:17:37Z, INFO]              107    59000       3339        F   on _ITV_26
-[2018-04-11T06:17:37Z, INFO]              107    60000       3339        F   on _ITV_6
-[2018-04-11T06:17:38Z, INFO]              107    61000       1407            on _ITV_59
-[2018-04-11T06:17:38Z, INFO]              107    62000        379            on _ITV_394
-[2018-04-11T06:17:38Z, INFO]              107    63000          2        F   on _ITV_1506
-[2018-04-11T06:17:38Z, INFO]              107    64000        112        F   on _ITV_1202
-[2018-04-11T06:17:39Z, INFO]              107    65000        114            on _ITV_1589
-[2018-04-11T06:17:39Z, INFO]              107    66000          2        F   on _ITV_3050
-[2018-04-11T06:17:39Z, INFO]              107    67000        161        F   on _ITV_2340
-[2018-04-11T06:17:39Z, INFO]              107    68000          2            on _ITV_1869
-[2018-04-11T06:17:39Z, INFO]              107    69000          2            on _ITV_2803
-[2018-04-11T06:17:39Z, INFO]              107    70000        206            on _ITV_1212
-[2018-04-11T06:17:39Z, INFO]              107    71000        210        F   on _ITV_51
-[2018-04-11T06:17:39Z, INFO]              107    72000          2            on _ITV_637
-[2018-04-11T06:17:39Z, INFO]              107    73000          2            on _ITV_738
-[2018-04-11T06:17:40Z, INFO]              107    74000          2            on _ITV_389
-[2018-04-11T06:17:40Z, INFO]  ! Time = 11.67s, Average fail depth = 142, Memory usage = 29.3 MB
-[2018-04-11T06:17:40Z, INFO]  ! Current bound is 90 (gap is 15.89%)
-[2018-04-11T06:17:40Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:17:40Z, INFO]              107    75000       1777            on _ITV_1071
-[2018-04-11T06:17:40Z, INFO]              107    76000        777            on _ITV_1894
-[2018-04-11T06:17:40Z, INFO]              107    77000          2            on _ITV_2904
-[2018-04-11T06:17:40Z, INFO]              107    78000          2            on _ITV_31
-[2018-04-11T06:17:40Z, INFO]              107    79000          2            on _ITV_102
-[2018-04-11T06:17:40Z, INFO]              107    80000        111        F   on _ITV_3040
-[2018-04-11T06:17:40Z, INFO]              107    81000          2            on _ITV_2435
-[2018-04-11T06:17:40Z, INFO]              107    82000          2            on _ITV_3114
-[2018-04-11T06:17:40Z, INFO]              107    83000          2            on _ITV_122
-[2018-04-11T06:17:40Z, INFO]              107    84000         16        F   on _ITV_129
-[2018-04-11T06:17:40Z, INFO]              107    85000         28        F   on _ITV_1952
-[2018-04-11T06:17:41Z, INFO]              107    86000          2            on _ITV_126
-[2018-04-11T06:17:41Z, INFO]              107    87000         31        F   on _ITV_40
-[2018-04-11T06:17:41Z, INFO]              107    88000         25        F   on _ITV_1125
-[2018-04-11T06:17:41Z, INFO]              107    89000         27            on _ITV_146
-[2018-04-11T06:17:41Z, INFO]              107    90000          2        F   on _ITV_183
-[2018-04-11T06:17:41Z, INFO]              107    91000          2        F   on _ITV_1815
-[2018-04-11T06:17:41Z, INFO]              107    92000          2            on _ITV_467
-[2018-04-11T06:17:41Z, INFO]              107    93000          2        F   on _ITV_100
-[2018-04-11T06:17:41Z, INFO]              107    94000        221        F   on _ITV_2597
-[2018-04-11T06:17:41Z, INFO]  ! Time = 13.26s, Average fail depth = 141, Memory usage = 28.4 MB
-[2018-04-11T06:17:41Z, INFO]  ! Current bound is 90 (gap is 15.89%)
-[2018-04-11T06:17:41Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:17:41Z, INFO]              107    95000        224        F   on _ITV_2916
-[2018-04-11T06:17:41Z, INFO]              107    96000          2        F   on _ITV_2739
-[2018-04-11T06:17:41Z, INFO]              107    97000          2            on _ITV_1063
-[2018-04-11T06:17:42Z, INFO]              107    98000         39            on _ITV_116
-[2018-04-11T06:17:42Z, INFO]              107    99000         40            on _ITV_143
-[2018-04-11T06:17:42Z, INFO]              107     100k          2            on _ITV_902
-[2018-04-11T06:17:42Z, INFO]              107     101k          2            on _ITV_625
-[2018-04-11T06:17:42Z, INFO]              107     102k         45        F   on _ITV_153
-[2018-04-11T06:17:42Z, INFO]              107     103k          2        F   on _ITV_1297
-[2018-04-11T06:17:42Z, INFO]              107     104k         32        F   on _ITV_59
-[2018-04-11T06:17:42Z, INFO]              107     105k         15            on _ITV_3031
-[2018-04-11T06:17:42Z, INFO]              107     106k          2            on _ITV_3034
-[2018-04-11T06:17:43Z, INFO]              107     107k          5        F   on _ITV_402
-[2018-04-11T06:17:43Z, INFO]              107     108k         17            on _ITV_405
-[2018-04-11T06:17:43Z, INFO]              107     109k          1            on _ITV_1566
-[2018-04-11T06:17:43Z, INFO]              107     110k          1            on _ITV_1589
-[2018-04-11T06:17:43Z, INFO]              107     111k        240        F   on _ITV_2740
-[2018-04-11T06:17:43Z, INFO]              107     112k          2            on _ITV_1066
-[2018-04-11T06:17:43Z, INFO]              107     113k         89        F   on _ITV_142
-[2018-04-11T06:17:43Z, INFO]              107     114k         89        F   on _ITV_2103
-[2018-04-11T06:17:43Z, INFO]  ! Time = 15.12s, Average fail depth = 135, Memory usage = 28.4 MB
-[2018-04-11T06:17:43Z, INFO]  ! Current bound is 90 (gap is 15.89%)
-[2018-04-11T06:17:43Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:17:43Z, INFO]              107     115k        178            on _ITV_2937
-[2018-04-11T06:17:43Z, INFO]              107     116k          2            on _ITV_639
-[2018-04-11T06:17:43Z, INFO]              107     117k        277            on _ITV_2296
-[2018-04-11T06:17:43Z, INFO]              107     118k          2        F   on _ITV_271
-[2018-04-11T06:17:43Z, INFO]              107     119k         66            on _ITV_156
-[2018-04-11T06:17:44Z, INFO]              107     120k          2        F   on _ITV_1566
-[2018-04-11T06:17:44Z, INFO]              107     121k          2        F   on _ITV_142
-[2018-04-11T06:17:44Z, INFO]  *           106     121k  15.78s              (gap is 15.09%)
-[2018-04-11T06:17:44Z, INFO] Objective values: (106,)
-[2018-04-11T06:17:44Z, INFO] time to complete all operations
-[2018-04-11T06:17:44Z, INFO] -->
-[2018-04-11T06:17:44Z, INFO] 106
-[2018-04-11T06:17:44Z, INFO] solution export done in 0.0271110534668 secs
-[2018-04-11T06:17:44Z, INFO]              106     122k          1            on _ITV_1588
-[2018-04-11T06:17:44Z, INFO]              106     123k        337        F   on _ITV_31
-[2018-04-11T06:17:44Z, INFO]              106     124k        217        F   on _ITV_31
-[2018-04-11T06:17:44Z, INFO]              106     125k       2013            on _ITV_2317
-[2018-04-11T06:17:44Z, INFO]              106     126k        196        F   on _ITV_31
-[2018-04-11T06:17:45Z, INFO]              106     127k        333        F   on _ITV_3258
-[2018-04-11T06:17:45Z, INFO]              106     128k        177        F   on _ITV_21
-[2018-04-11T06:17:45Z, INFO]              106     129k        406            on _ITV_191
-[2018-04-11T06:17:45Z, INFO]              106     130k        404        F   on _ITV_142
-[2018-04-11T06:17:45Z, INFO]              106     131k         80        F   on _ITV_2095
-[2018-04-11T06:17:45Z, INFO]              106     132k         82        F   on _ITV_521
-[2018-04-11T06:17:45Z, INFO]              106     133k       2424            on _ITV_667
-[2018-04-11T06:17:45Z, INFO]  ! Time = 17.33s, Average fail depth = 129, Memory usage = 28.7 MB
-[2018-04-11T06:17:45Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:17:45Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:17:46Z, INFO]              106     134k        534            on _ITV_975
-[2018-04-11T06:17:46Z, INFO]              106     135k        534            on _ITV_91
-[2018-04-11T06:17:46Z, INFO]              106     136k       2446            on _ITV_2350
-[2018-04-11T06:17:46Z, INFO]              106     137k        254            on _ITV_18
-[2018-04-11T06:17:46Z, INFO]              106     138k        235            on _ITV_37
-[2018-04-11T06:17:46Z, INFO]              106     139k         22        F   on _ITV_12
-[2018-04-11T06:17:46Z, INFO]              106     140k       2385            on _ITV_58
-[2018-04-11T06:17:46Z, INFO]              106     141k       2446            on _ITV_1571
-[2018-04-11T06:17:47Z, INFO]              106     142k       1968        F   on _ITV_5
-[2018-04-11T06:17:47Z, INFO]              106     143k         89        F   on _ITV_58
-[2018-04-11T06:17:47Z, INFO]              106     144k       2385        F   on _ITV_152
-[2018-04-11T06:17:47Z, INFO]              106     145k        524            on _ITV_1245
-[2018-04-11T06:17:47Z, INFO]              106     146k        149            on _ITV_1565
-[2018-04-11T06:17:47Z, INFO]              106     147k         59        F   on _ITV_102
-[2018-04-11T06:17:47Z, INFO]              106     148k        442            on _ITV_128
-[2018-04-11T06:17:48Z, INFO]              106     149k        500        F   on _ITV_76
-[2018-04-11T06:17:48Z, INFO]              106     150k       2404        F   on _ITV_1250
-[2018-04-11T06:17:48Z, INFO]              106     151k       2056        F   on _ITV_90
-[2018-04-11T06:17:48Z, INFO]              106     152k        694        F   on _ITV_148
-[2018-04-11T06:17:48Z, INFO]              106     153k        579            on _ITV_98
-[2018-04-11T06:17:48Z, INFO]  ! Time = 20.15s, Average fail depth = 120, Memory usage = 29.5 MB
-[2018-04-11T06:17:48Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:17:48Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:17:48Z, INFO]              106     154k        167        F   on _ITV_96
-[2018-04-11T06:17:48Z, INFO]              106     155k        167            on _ITV_2693
-[2018-04-11T06:17:49Z, INFO]              106     156k         27        F   on _ITV_154
-[2018-04-11T06:17:49Z, INFO]              106     157k        280        F   on _ITV_134
-[2018-04-11T06:17:49Z, INFO]              106     158k        170            on _ITV_3318
-[2018-04-11T06:17:49Z, INFO]              106     159k       2445        F   on _ITV_155
-[2018-04-11T06:17:49Z, INFO]              106     160k       2463        F   on _ITV_142
-[2018-04-11T06:17:49Z, INFO]              106     161k        112        F   on _ITV_125
-[2018-04-11T06:17:49Z, INFO]              106     162k        268            on _ITV_55
-[2018-04-11T06:17:50Z, INFO]              106     163k        282            on _ITV_1189
-[2018-04-11T06:17:50Z, INFO]              106     164k       2405            on _ITV_28
-[2018-04-11T06:17:50Z, INFO]              106     165k        338            on _ITV_2960
-[2018-04-11T06:17:50Z, INFO]              106     166k        276            on _ITV_3299
-[2018-04-11T06:17:50Z, INFO]              106     167k       2343            on _ITV_1301
-[2018-04-11T06:17:50Z, INFO]              106     168k        604            on _ITV_3268
-[2018-04-11T06:17:50Z, INFO]              106     169k        277        F   on _ITV_15
-[2018-04-11T06:17:51Z, INFO]              106     170k        178            on _ITV_85
-[2018-04-11T06:17:51Z, INFO]              106     171k        430            on _ITV_116
-[2018-04-11T06:17:51Z, INFO]              106     172k        310        F   on _ITV_79
-[2018-04-11T06:17:51Z, INFO]              106     173k         58            on _ITV_1038
-[2018-04-11T06:17:51Z, INFO]  ! Time = 23.11s, Average fail depth = 113, Memory usage = 30.2 MB
-[2018-04-11T06:17:51Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:17:51Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:17:51Z, INFO]              106     174k         58        F   on _ITV_31
-[2018-04-11T06:17:51Z, INFO]              106     175k        226            on _ITV_988
-[2018-04-11T06:17:52Z, INFO]              106     176k       1968            on _ITV_2194
-[2018-04-11T06:17:52Z, INFO]              106     177k         73        F   on _ITV_52
-[2018-04-11T06:17:52Z, INFO]              106     178k       2424        F   on _ITV_142
-[2018-04-11T06:17:52Z, INFO]              106     179k       2404            on _ITV_150
-[2018-04-11T06:17:52Z, INFO]              106     180k        482            on _ITV_39
-[2018-04-11T06:17:52Z, INFO]              106     181k       2484            on _ITV_2119
-[2018-04-11T06:17:52Z, INFO]              106     182k        386        F   on _ITV_151
-[2018-04-11T06:17:53Z, INFO]              106     183k        329        F   on _ITV_103
-[2018-04-11T06:17:53Z, INFO]              106     184k        116        F   on _ITV_76
-[2018-04-11T06:17:53Z, INFO]              106     185k         24            on _ITV_444
-[2018-04-11T06:17:53Z, INFO]              106     186k       1768            on _ITV_2184
-[2018-04-11T06:17:53Z, INFO]              106     187k        768            on _ITV_3070
-[2018-04-11T06:17:53Z, INFO]              106     188k        270            on _ITV_57
-[2018-04-11T06:17:53Z, INFO]              106     189k        110            on _ITV_598
-[2018-04-11T06:17:53Z, INFO]              106     190k        431            on _ITV_478
-[2018-04-11T06:17:53Z, INFO]              106     191k        409            on _ITV_2060
-[2018-04-11T06:17:54Z, INFO]              106     192k        228            on _ITV_465
-[2018-04-11T06:17:54Z, INFO]              106     193k          2            on _ITV_120
-[2018-04-11T06:17:54Z, INFO]  ! Time = 25.61s, Average fail depth = 116, Memory usage = 30.6 MB
-[2018-04-11T06:17:54Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:17:54Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:17:54Z, INFO]              106     194k        337            on _ITV_69
-[2018-04-11T06:17:54Z, INFO]              106     195k       2463            on _ITV_1080
-[2018-04-11T06:17:54Z, INFO]              106     196k        317            on _ITV_117
-[2018-04-11T06:17:54Z, INFO]              106     197k       2467            on _ITV_2583
-[2018-04-11T06:17:54Z, INFO]              106     198k        691            on _ITV_2
-[2018-04-11T06:17:55Z, INFO]              106     199k        324            on _ITV_62
-[2018-04-11T06:17:55Z, INFO]              106     200k        650            on _ITV_115
-[2018-04-11T06:17:55Z, INFO]              106     201k        170        F   on _ITV_30
-[2018-04-11T06:17:55Z, INFO]              106     202k       2505            on _ITV_81
-[2018-04-11T06:17:55Z, INFO]              106     203k       2444            on _ITV_63
-[2018-04-11T06:17:55Z, INFO]              106     204k       2445            on _ITV_109
-[2018-04-11T06:17:56Z, INFO]              106     205k        113        F   on _ITV_138
-[2018-04-11T06:17:56Z, INFO]              106     206k        100            on _ITV_88
-[2018-04-11T06:17:56Z, INFO]              106     207k        392            on _ITV_1
-[2018-04-11T06:17:56Z, INFO]              106     208k        119            on _ITV_525
-[2018-04-11T06:17:56Z, INFO]              106     209k         75        F   on _ITV_151
-[2018-04-11T06:17:56Z, INFO]              106     210k       1197        F   on _ITV_115
-[2018-04-11T06:17:57Z, INFO]              106     211k         24            on _ITV_66
-[2018-04-11T06:17:57Z, INFO]              106     212k       2466            on _ITV_17
-[2018-04-11T06:17:57Z, INFO]              106     213k        488            on _ITV_22
-[2018-04-11T06:17:57Z, INFO]  ! Time = 28.90s, Average fail depth = 110, Memory usage = 29.9 MB
-[2018-04-11T06:17:57Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:17:57Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:17:57Z, INFO]              106     214k         85            on _ITV_2964
-[2018-04-11T06:17:57Z, INFO]              106     215k       2383        F   on _ITV_146
-[2018-04-11T06:17:57Z, INFO]              106     216k         24        F   on _ITV_31
-[2018-04-11T06:17:58Z, INFO]              106     217k       1821            on _ITV_363
-[2018-04-11T06:17:58Z, INFO]              106     218k        286            on _ITV_811
-[2018-04-11T06:17:58Z, INFO]              106     219k       1485            on _ITV_828
-[2018-04-11T06:17:58Z, INFO]              106     220k        483            on _ITV_2769
-[2018-04-11T06:17:58Z, INFO]              106     221k        270        F   on _ITV_75
-[2018-04-11T06:17:58Z, INFO]              106     222k        890            on _ITV_2292
-[2018-04-11T06:17:58Z, INFO]              106     223k       1899            on _ITV_3156
-[2018-04-11T06:17:59Z, INFO]              106     224k        589            on _ITV_119
-[2018-04-11T06:17:59Z, INFO]              106     225k        280            on _ITV_100
-[2018-04-11T06:17:59Z, INFO]              106     226k        227            on _ITV_2022
-[2018-04-11T06:17:59Z, INFO]              106     227k       2405        F   on _ITV_149
-[2018-04-11T06:17:59Z, INFO]              106     228k       2444            on _ITV_7
-[2018-04-11T06:18:00Z, INFO]              106     229k       2403        F   on _ITV_56
-[2018-04-11T06:18:00Z, INFO]              106     230k        218            on _ITV_2
-[2018-04-11T06:18:00Z, INFO]              106     231k        462        F   on _ITV_131
-[2018-04-11T06:18:00Z, INFO]              106     232k        462            on _ITV_2129
-[2018-04-11T06:18:00Z, INFO]              106     233k        484        F   on _ITV_118
-[2018-04-11T06:18:00Z, INFO]  ! Time = 32.32s, Average fail depth = 111, Memory usage = 30.0 MB
-[2018-04-11T06:18:00Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:18:00Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:18:00Z, INFO]              106     234k       2503            on _ITV_115
-[2018-04-11T06:18:01Z, INFO]              106     235k        342            on _ITV_92
-[2018-04-11T06:18:01Z, INFO]              106     236k        178            on _ITV_155
-[2018-04-11T06:18:01Z, INFO]              106     237k        244        F   on _ITV_128
-[2018-04-11T06:18:01Z, INFO]              106     238k        490        F   on _ITV_40
-[2018-04-11T06:18:01Z, INFO]              106     239k        172            on _ITV_686
-[2018-04-11T06:18:01Z, INFO]              106     240k          2            on _ITV_2146
-[2018-04-11T06:18:02Z, INFO]              106     241k        447            on _ITV_126
-[2018-04-11T06:18:02Z, INFO]              106     242k        176            on _ITV_58
-[2018-04-11T06:18:02Z, INFO]              106     243k        578            on _ITV_135
-[2018-04-11T06:18:02Z, INFO]              106     244k         42        F   on _ITV_372
-[2018-04-11T06:18:02Z, INFO]              106     245k        525        F   on _ITV_31
-[2018-04-11T06:18:02Z, INFO]              106     246k       2467            on _ITV_2801
-[2018-04-11T06:18:02Z, INFO]              106     247k       2496        F   on _ITV_31
-[2018-04-11T06:18:02Z, INFO]              106     248k        318        F   on _ITV_31
-[2018-04-11T06:18:03Z, INFO]              106     249k        325            on _ITV_2541
-[2018-04-11T06:18:03Z, INFO]              106     250k       2427        F   on _ITV_142
-[2018-04-11T06:18:03Z, INFO]              106     251k        171            on _ITV_25
-[2018-04-11T06:18:03Z, INFO]              106     252k       1027            on _ITV_35
-[2018-04-11T06:18:03Z, INFO]              106     253k         35        F   on _ITV_91
-[2018-04-11T06:18:03Z, INFO]  ! Time = 35.17s, Average fail depth = 106, Memory usage = 29.1 MB
-[2018-04-11T06:18:03Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:18:03Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:18:03Z, INFO]              106     254k        257        F   on _ITV_40
-[2018-04-11T06:18:03Z, INFO]              106     255k        280            on _ITV_996
-[2018-04-11T06:18:04Z, INFO]              106     256k       2364            on _ITV_2156
-[2018-04-11T06:18:04Z, INFO]              106     257k        598        F   on _ITV_31
-[2018-04-11T06:18:04Z, INFO]              106     258k        192            on _ITV_2585
-[2018-04-11T06:18:04Z, INFO]              106     259k        461            on _ITV_651
-[2018-04-11T06:18:04Z, INFO]              106     260k        407            on _ITV_100
-[2018-04-11T06:18:04Z, INFO]              106     261k        317            on _ITV_291
-[2018-04-11T06:18:05Z, INFO]              106     262k        192            on _ITV_2168
-[2018-04-11T06:18:05Z, INFO]              106     263k       2485            on _ITV_2352
-[2018-04-11T06:18:05Z, INFO]              106     264k       2505        F   on _ITV_142
-[2018-04-11T06:18:05Z, INFO]              106     265k        579        F   on _ITV_31
-[2018-04-11T06:18:05Z, INFO]              106     266k       2365        F   on _ITV_142
-[2018-04-11T06:18:05Z, INFO]              106     267k        238        F   on _ITV_104
-[2018-04-11T06:18:06Z, INFO]              106     268k        579            on _ITV_118
-[2018-04-11T06:18:06Z, INFO]              106     269k        461            on _ITV_93
-[2018-04-11T06:18:06Z, INFO]              106     270k       2363            on _ITV_1320
-[2018-04-11T06:18:06Z, INFO]              106     271k       1702            on _ITV_1665
-[2018-04-11T06:18:06Z, INFO]              106     272k        700            on _ITV_1217
-[2018-04-11T06:18:06Z, INFO]              106     273k        275        F   on _ITV_149
-[2018-04-11T06:18:06Z, INFO]  ! Time = 38.04s, Average fail depth = 107, Memory usage = 29.0 MB
-[2018-04-11T06:18:06Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:18:06Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:18:06Z, INFO]              106     274k        317        F   on _ITV_42
-[2018-04-11T06:18:06Z, INFO]              106     275k       2503        F   on _ITV_142
-[2018-04-11T06:18:07Z, INFO]              106     276k        672            on _ITV_1742
-[2018-04-11T06:18:07Z, INFO]              106     277k        121        F   on _ITV_74
-[2018-04-11T06:18:07Z, INFO]              106     278k        165            on _ITV_114
-[2018-04-11T06:18:07Z, INFO]              106     279k         56            on _ITV_1315
-[2018-04-11T06:18:07Z, INFO]              106     280k        327        F   on _ITV_31
-[2018-04-11T06:18:07Z, INFO]              106     281k       2339            on _ITV_2412
-[2018-04-11T06:18:08Z, INFO]              106     282k       1339            on _ITV_1621
-[2018-04-11T06:18:08Z, INFO]              106     283k        315            on _ITV_31
-[2018-04-11T06:18:08Z, INFO]              106     284k        270            on _ITV_87
-[2018-04-11T06:18:08Z, INFO]              106     285k        461            on _ITV_793
-[2018-04-11T06:18:08Z, INFO]              106     286k        616            on _ITV_2771
-[2018-04-11T06:18:08Z, INFO]              106     287k        104        F   on _ITV_31
-[2018-04-11T06:18:08Z, INFO]              106     288k       2465        F   on _ITV_142
-[2018-04-11T06:18:08Z, INFO]              106     289k       1168            on _ITV_2021
-[2018-04-11T06:18:08Z, INFO]              106     290k        141            on _ITV_4
-[2018-04-11T06:18:09Z, INFO]              106     291k        112        F   on _ITV_72
-[2018-04-11T06:18:09Z, INFO]              106     292k       2366            on _ITV_114
-[2018-04-11T06:18:09Z, INFO]              106     293k       2383        F   on _ITV_134
-[2018-04-11T06:18:09Z, INFO]  ! Time = 40.87s, Average fail depth = 109, Memory usage = 28.9 MB
-[2018-04-11T06:18:09Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:18:09Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:18:09Z, INFO]              106     294k        371            on _ITV_25
-[2018-04-11T06:18:09Z, INFO]              106     295k        631            on _ITV_1388
-[2018-04-11T06:18:09Z, INFO]              106     296k       2396            on _ITV_763
-[2018-04-11T06:18:10Z, INFO]              106     297k         73            on _ITV_34
-[2018-04-11T06:18:10Z, INFO]              106     298k       2384        F   on _ITV_148
-[2018-04-11T06:18:10Z, INFO]              106     299k        482            on _ITV_10
-[2018-04-11T06:18:10Z, INFO]              106     300k        150            on _ITV_538
-[2018-04-11T06:18:10Z, INFO]              106     301k        159        F   on _ITV_2936
-[2018-04-11T06:18:10Z, INFO]              106     302k         70        F   on _ITV_33
-[2018-04-11T06:18:11Z, INFO]              106     303k        357            on _ITV_157
-[2018-04-11T06:18:11Z, INFO]              106     304k        134        F   on _ITV_567
-[2018-04-11T06:18:11Z, INFO]              106     305k         73            on _ITV_1621
-[2018-04-11T06:18:11Z, INFO]              106     306k         73            on _ITV_404
-[2018-04-11T06:18:11Z, INFO]              106     307k        335            on _ITV_706
-[2018-04-11T06:18:11Z, INFO]              106     308k       2424            on _ITV_3256
-[2018-04-11T06:18:11Z, INFO]              106     309k        301            on _ITV_1392
-[2018-04-11T06:18:11Z, INFO]              106     310k        226            on _ITV_1648
-[2018-04-11T06:18:12Z, INFO]              106     311k        204            on _ITV_44
-[2018-04-11T06:18:12Z, INFO]              106     312k          5        F   on _ITV_1340
-[2018-04-11T06:18:12Z, INFO]              106     313k         33        F   on _ITV_23
-[2018-04-11T06:18:12Z, INFO]  ! Time = 43.80s, Average fail depth = 107, Memory usage = 30.7 MB
-[2018-04-11T06:18:12Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:18:12Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:18:12Z, INFO]              106     314k       2446            on _ITV_2048
-[2018-04-11T06:18:12Z, INFO]              106     315k        474            on _ITV_93
-[2018-04-11T06:18:12Z, INFO]              106     316k        159            on _ITV_22
-[2018-04-11T06:18:12Z, INFO]              106     317k         78        F   on _ITV_79
-[2018-04-11T06:18:13Z, INFO]              106     318k        326        F   on _ITV_46
-[2018-04-11T06:18:13Z, INFO]              106     319k       1136            on _ITV_18
-[2018-04-11T06:18:13Z, INFO]              106     320k        331            on _ITV_2952
-[2018-04-11T06:18:13Z, INFO]              106     321k         10        F   on _ITV_9
-[2018-04-11T06:18:13Z, INFO]              106     322k         10        F   on _ITV_56
-[2018-04-11T06:18:13Z, INFO]              106     323k        329            on _ITV_2425
-[2018-04-11T06:18:13Z, INFO]              106     324k         24            on _ITV_1389
-[2018-04-11T06:18:14Z, INFO]              106     325k        318        F   on _ITV_31
-[2018-04-11T06:18:14Z, INFO]              106     326k          2            on _ITV_1894
-[2018-04-11T06:18:14Z, INFO]              106     327k        147        F   on _ITV_2941
-[2018-04-11T06:18:14Z, INFO]              106     328k         74            on _ITV_2044
-[2018-04-11T06:18:14Z, INFO]              106     329k         58            on _ITV_2238
-[2018-04-11T06:18:14Z, INFO]              106     330k        241            on _ITV_807
-[2018-04-11T06:18:14Z, INFO]              106     331k        220        F   on _ITV_30
-[2018-04-11T06:18:15Z, INFO]              106     332k         15            on _ITV_752
-[2018-04-11T06:18:15Z, INFO]              106     333k          2        F   on _ITV_357
-[2018-04-11T06:18:15Z, INFO]  ! Time = 46.81s, Average fail depth = 104, Memory usage = 30.6 MB
-[2018-04-11T06:18:15Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:18:15Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:18:15Z, INFO]              106     334k        115            on _ITV_145
-[2018-04-11T06:18:15Z, INFO]              106     335k         24            on _ITV_1449
-[2018-04-11T06:18:15Z, INFO]              106     336k          2            on _ITV_1328
-[2018-04-11T06:18:15Z, INFO]              106     337k       1667            on _ITV_1036
-[2018-04-11T06:18:15Z, INFO]              106     338k         34            on _ITV_43
-[2018-04-11T06:18:15Z, INFO]              106     339k         34            on _ITV_576
-[2018-04-11T06:18:16Z, INFO]              106     340k         25        F   on _ITV_1257
-[2018-04-11T06:18:16Z, INFO]              106     341k         18        F   on _ITV_397
-[2018-04-11T06:18:16Z, INFO]              106     342k         24            on _ITV_1501
-[2018-04-11T06:18:16Z, INFO]              106     343k         24            on _ITV_2687
-[2018-04-11T06:18:16Z, INFO]              106     344k        117        F   on _ITV_1955
-[2018-04-11T06:18:16Z, INFO]              106     345k        116        F   on _ITV_2561
-[2018-04-11T06:18:16Z, INFO]              106     346k        118        F   on _ITV_121
-[2018-04-11T06:18:16Z, INFO]              106     347k        111            on _ITV_507
-[2018-04-11T06:18:16Z, INFO]              106     348k          2            on _ITV_2447
-[2018-04-11T06:18:16Z, INFO]              106     349k         92            on _ITV_519
-[2018-04-11T06:18:16Z, INFO]              106     350k          2            on _ITV_98
-[2018-04-11T06:18:16Z, INFO]              106     351k          1        F   on _ITV_357
-[2018-04-11T06:18:17Z, INFO]              106     352k          2        F   on _ITV_1002
-[2018-04-11T06:18:17Z, INFO]              106     353k          2            on _ITV_1162
-[2018-04-11T06:18:17Z, INFO]  ! Time = 48.78s, Average fail depth = 103, Memory usage = 30.3 MB
-[2018-04-11T06:18:17Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:18:17Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:18:17Z, INFO]              106     354k          1        F   on _ITV_1346
-[2018-04-11T06:18:17Z, INFO]              106     355k         15        F   on _ITV_1887
-[2018-04-11T06:18:17Z, INFO]              106     356k         57            on _ITV_1874
-[2018-04-11T06:18:17Z, INFO]              106     357k          2            on _ITV_3011
-[2018-04-11T06:18:17Z, INFO]              106     358k        290        F   on _ITV_2955
-[2018-04-11T06:18:17Z, INFO]              106     359k        288            on _ITV_3211
-[2018-04-11T06:18:17Z, INFO]              106     360k       1619            on _ITV_1020
-[2018-04-11T06:18:17Z, INFO]              106     361k        619            on _ITV_2306
-[2018-04-11T06:18:17Z, INFO]              106     362k          1        F   on _ITV_3115
-[2018-04-11T06:18:18Z, INFO]              106     363k         95        F   on _ITV_3115
-[2018-04-11T06:18:18Z, INFO]              106     364k          2            on _ITV_511
-[2018-04-11T06:18:18Z, INFO]              106     365k       1777            on _ITV_1970
-[2018-04-11T06:18:18Z, INFO]              106     366k        777            on _ITV_1103
-[2018-04-11T06:18:18Z, INFO]              106     367k          2            on _ITV_3264
-[2018-04-11T06:18:18Z, INFO]              106     368k        116            on _ITV_2813
-[2018-04-11T06:18:18Z, INFO]              106     369k          1        F   on _ITV_16
-[2018-04-11T06:18:18Z, INFO]              106     370k         47            on _ITV_115
-[2018-04-11T06:18:18Z, INFO]              106     371k         51        F   on _ITV_2951
-[2018-04-11T06:18:18Z, INFO]              106     372k          1        F   106  = kpi_1
-[2018-04-11T06:18:18Z, INFO]              106     373k          2            on _ITV_1882
-[2018-04-11T06:18:18Z, INFO]  ! Time = 50.41s, Average fail depth = 109, Memory usage = 30.3 MB
-[2018-04-11T06:18:18Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:18:18Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:18:19Z, INFO]              106     374k          2        F   on _ITV_313
-[2018-04-11T06:18:19Z, INFO]              106     375k         16            on _ITV_544
-[2018-04-11T06:18:19Z, INFO]              106     376k          2            on _ITV_140
-[2018-04-11T06:18:19Z, INFO]              106     377k          1            on _ITV_2535
-[2018-04-11T06:18:19Z, INFO]              106     378k        122            on _ITV_3132
-[2018-04-11T06:18:19Z, INFO]              106     379k         80            on _ITV_220
-[2018-04-11T06:18:19Z, INFO]              106     380k          2            on _ITV_1936
-[2018-04-11T06:18:19Z, INFO]              106     381k         32        F   on _ITV_664
-[2018-04-11T06:18:19Z, INFO]              106     382k          2        F   on _ITV_482
-[2018-04-11T06:18:19Z, INFO]              106     383k         23            on _ITV_143
-[2018-04-11T06:18:19Z, INFO]              106     384k          2            on _ITV_2378
-[2018-04-11T06:18:20Z, INFO]              106     385k         23            on _ITV_1877
-[2018-04-11T06:18:20Z, INFO]              106     386k          2        F   on _ITV_54
-[2018-04-11T06:18:20Z, INFO]              106     387k         15            on _ITV_2749
-[2018-04-11T06:18:20Z, INFO]              106     388k       1359            on _ITV_1069
-[2018-04-11T06:18:20Z, INFO]              106     389k        123        F   on _ITV_23
-[2018-04-11T06:18:20Z, INFO]              106     390k          2        F   on _ITV_1340
-[2018-04-11T06:18:20Z, INFO]              106     391k        131            on _ITV_1723
-[2018-04-11T06:18:20Z, INFO]              106     392k        115        F   on _ITV_2454
-[2018-04-11T06:18:20Z, INFO]              106     393k        110        F   on _ITV_2446
-[2018-04-11T06:18:20Z, INFO]  ! Time = 52.21s, Average fail depth = 109, Memory usage = 30.0 MB
-[2018-04-11T06:18:20Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:18:20Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:18:20Z, INFO]              106     394k          2        F   on _ITV_482
-[2018-04-11T06:18:21Z, INFO]              106     395k          2            on _ITV_686
-[2018-04-11T06:18:21Z, INFO]              106     396k          2            on _ITV_1486
-[2018-04-11T06:18:21Z, INFO]              106     397k          2        F   on _ITV_17
-[2018-04-11T06:18:21Z, INFO]              106     398k         24            on _ITV_1417
-[2018-04-11T06:18:21Z, INFO]              106     399k          2            on _ITV_84
-[2018-04-11T06:18:21Z, INFO]              106     400k          1        F   on _ITV_288
-[2018-04-11T06:18:21Z, INFO]              106     401k         34        F   on _ITV_144
-[2018-04-11T06:18:21Z, INFO]              106     402k        132            on _ITV_146
-[2018-04-11T06:18:21Z, INFO]              106     403k          2            on _ITV_2385
-[2018-04-11T06:18:22Z, INFO]              106     404k          2        F   on _ITV_524
-[2018-04-11T06:18:22Z, INFO]              106     405k         80        F   on _ITV_2554
-[2018-04-11T06:18:22Z, INFO]              106     406k          2            on _ITV_1614
-[2018-04-11T06:18:22Z, INFO]              106     407k          2        F   on _ITV_940
-[2018-04-11T06:18:22Z, INFO]              106     408k         60        F   on _ITV_70
-[2018-04-11T06:18:22Z, INFO]              106     409k         60        F   on _ITV_13
-[2018-04-11T06:18:22Z, INFO]              106     410k          2            on _ITV_36
-[2018-04-11T06:18:22Z, INFO]              106     411k         31        F   on _ITV_1608
-[2018-04-11T06:18:22Z, INFO]              106     412k         31            on _ITV_1593
-[2018-04-11T06:18:22Z, INFO]              106     413k       2077            on _ITV_3148
-[2018-04-11T06:18:22Z, INFO]  ! Time = 54.32s, Average fail depth = 109, Memory usage = 30.4 MB
-[2018-04-11T06:18:22Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:18:22Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:18:22Z, INFO]              106     414k       1019            on _ITV_1040
-[2018-04-11T06:18:23Z, INFO]              106     415k        315            on _ITV_192
-[2018-04-11T06:18:23Z, INFO]              106     416k       2084            on _ITV_1008
-[2018-04-11T06:18:23Z, INFO]              106     417k       1015            on _ITV_2339
-[2018-04-11T06:18:23Z, INFO]              106     418k        383        F   on _ITV_2295
-[2018-04-11T06:18:23Z, INFO]              106     419k          2        F   on _ITV_1622
-[2018-04-11T06:18:23Z, INFO]              106     420k          2            on _ITV_731
-[2018-04-11T06:18:23Z, INFO]              106     421k         83        F   on _ITV_47
-[2018-04-11T06:18:23Z, INFO]              106     422k        273            on _ITV_1767
-[2018-04-11T06:18:23Z, INFO]              106     423k        158            on _ITV_1340
-[2018-04-11T06:18:23Z, INFO]              106     424k         24        F   on _ITV_769
-[2018-04-11T06:18:23Z, INFO]              106     425k          2        F   on _ITV_2687
-[2018-04-11T06:18:23Z, INFO]              106     426k        199            on _ITV_1952
-[2018-04-11T06:18:23Z, INFO]              106     427k        114            on _ITV_2705
-[2018-04-11T06:18:23Z, INFO]              106     428k        114            on _ITV_116
-[2018-04-11T06:18:23Z, INFO]              106     429k          2        F   on _ITV_59
-[2018-04-11T06:18:24Z, INFO]              106     430k         45            on _ITV_1488
-[2018-04-11T06:18:24Z, INFO]              106     431k        630            on _ITV_2432
-[2018-04-11T06:18:24Z, INFO]              106     432k          2        F   on _ITV_1609
-[2018-04-11T06:18:24Z, INFO]              106     433k          2            on _ITV_1736
-[2018-04-11T06:18:24Z, INFO]  ! Time = 55.85s, Average fail depth = 112, Memory usage = 28.7 MB
-[2018-04-11T06:18:24Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:18:24Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:18:24Z, INFO]              106     434k          2        F   on _ITV_516
-[2018-04-11T06:18:24Z, INFO]              106     435k          2            on _ITV_1303
-[2018-04-11T06:18:24Z, INFO]              106     436k         79            on _ITV_1727
-[2018-04-11T06:18:24Z, INFO]              106     437k        155        F   on _ITV_2765
-[2018-04-11T06:18:24Z, INFO]              106     438k         45            on _ITV_146
-[2018-04-11T06:18:24Z, INFO]              106     439k         45            on _ITV_148
-[2018-04-11T06:18:24Z, INFO]              106     440k          2            on _ITV_2047
-[2018-04-11T06:18:25Z, INFO]              106     441k          1        F   on _ITV_2044
-[2018-04-11T06:18:25Z, INFO]              106     442k         46            on _ITV_482
-[2018-04-11T06:18:25Z, INFO]              106     443k         35            on _ITV_1977
-[2018-04-11T06:18:25Z, INFO]              106     444k          1        F   on _ITV_1327
-[2018-04-11T06:18:25Z, INFO]              106     445k          2            on _ITV_805
-[2018-04-11T06:18:25Z, INFO]              106     446k         20            on _ITV_2466
-[2018-04-11T06:18:25Z, INFO]              106     447k          1            on _ITV_999
-[2018-04-11T06:18:25Z, INFO]              106     448k          2            on _ITV_2265
-[2018-04-11T06:18:26Z, INFO]              106     449k          1            on _ITV_686
-[2018-04-11T06:18:26Z, INFO]              106     450k          2            on _ITV_2428
-[2018-04-11T06:18:26Z, INFO]              106     451k         34            on _ITV_1390
-[2018-04-11T06:18:26Z, INFO]              106     452k          2            on _ITV_3148
-[2018-04-11T06:18:26Z, INFO]              106     453k        133            on _ITV_139
-[2018-04-11T06:18:26Z, INFO]  ! Time = 57.90s, Average fail depth = 113, Memory usage = 28.7 MB
-[2018-04-11T06:18:26Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:18:26Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:18:26Z, INFO]              106     454k          2            on _ITV_2062
-[2018-04-11T06:18:26Z, INFO]              106     455k          2        F   on _ITV_2087
-[2018-04-11T06:18:26Z, INFO]              106     456k         27            on _ITV_1874
-[2018-04-11T06:18:26Z, INFO]              106     457k          2        F   on _ITV_831
-[2018-04-11T06:18:26Z, INFO]              106     458k        117            on _ITV_1107
-[2018-04-11T06:18:26Z, INFO]              106     459k          2            on _ITV_686
-[2018-04-11T06:18:26Z, INFO]              106     460k         12            on _ITV_48
-[2018-04-11T06:18:27Z, INFO]              106     461k        258        F   on _ITV_3246
-[2018-04-11T06:18:27Z, INFO]              106     462k          2            on _ITV_2705
-[2018-04-11T06:18:27Z, INFO]              106     463k          2        F   on _ITV_357
-[2018-04-11T06:18:27Z, INFO]              106     464k          2            on _ITV_1566
-[2018-04-11T06:18:27Z, INFO]              106     465k          2            on _ITV_588
-[2018-04-11T06:18:27Z, INFO]              106     466k         24            on _ITV_2108
-[2018-04-11T06:18:27Z, INFO]              106     467k          2            on _ITV_1308
-[2018-04-11T06:18:27Z, INFO]              106     468k        262            on _ITV_1914
-[2018-04-11T06:18:27Z, INFO]              106     469k        255            on _ITV_865
-[2018-04-11T06:18:27Z, INFO]              106     470k          2            on _ITV_2151
-[2018-04-11T06:18:27Z, INFO]              106     471k          2        F   on _ITV_680
-[2018-04-11T06:18:28Z, INFO]              106     472k          2            on _ITV_1339
-[2018-04-11T06:18:28Z, INFO]              106     473k        329            on _ITV_2687
-[2018-04-11T06:18:28Z, INFO]  ! Time = 59.63s, Average fail depth = 113, Memory usage = 30.5 MB
-[2018-04-11T06:18:28Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:18:28Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:18:28Z, INFO]              106     474k          2            on _ITV_2883
-[2018-04-11T06:18:28Z, INFO]              106     475k          2        F   on _ITV_650
-[2018-04-11T06:18:28Z, INFO]              106     476k        140        F   on _ITV_650
-[2018-04-11T06:18:28Z, INFO]              106     477k          1        F   106  = kpi_1
-[2018-04-11T06:18:28Z, INFO]              106     478k        124            on _ITV_947
-[2018-04-11T06:18:28Z, INFO]              106     479k          1            on _ITV_1180
-[2018-04-11T06:18:28Z, INFO]              106     480k          1            on _ITV_150
-[2018-04-11T06:18:29Z, INFO]              106     481k          2            on _ITV_196
-[2018-04-11T06:18:29Z, INFO]              106     482k          2        F   on _ITV_3144
-[2018-04-11T06:18:29Z, INFO]              106     483k         57            on _ITV_1715
-[2018-04-11T06:18:29Z, INFO]              106     484k          2            on _ITV_2114
-[2018-04-11T06:18:29Z, INFO]              106     485k          1        F   on _ITV_536
-[2018-04-11T06:18:29Z, INFO]              106     486k        107        F   on _ITV_1445
-[2018-04-11T06:18:29Z, INFO]              106     487k        111        F   on _ITV_1204
-[2018-04-11T06:18:29Z, INFO]              106     488k        114            on _ITV_858
-[2018-04-11T06:18:30Z, INFO]              106     489k          1            on _ITV_947
-[2018-04-11T06:18:30Z, INFO]              106     490k          1            on _ITV_1994
-[2018-04-11T06:18:30Z, INFO]              106     491k        169            on _ITV_877
-[2018-04-11T06:18:30Z, INFO]              106     492k          2            on _ITV_77
-[2018-04-11T06:18:30Z, INFO]              106     493k          2        F   on _ITV_312
-[2018-04-11T06:18:30Z, INFO]  ! Time = 61.97s, Average fail depth = 113, Memory usage = 30.4 MB
-[2018-04-11T06:18:30Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:18:30Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:18:30Z, INFO]              106     494k         52        F   on _ITV_37
-[2018-04-11T06:18:30Z, INFO]              106     495k          2            on _ITV_2010
-[2018-04-11T06:18:30Z, INFO]              106     496k          2            on _ITV_920
-[2018-04-11T06:18:30Z, INFO]              106     497k        343        F   on _ITV_18
-[2018-04-11T06:18:31Z, INFO]              106     498k          2            on _ITV_110
-[2018-04-11T06:18:31Z, INFO]              106     499k        116            on _ITV_40
-[2018-04-11T06:18:31Z, INFO]              106     500k        118        F   on _ITV_143
-[2018-04-11T06:18:31Z, INFO]              106     501k        224        F   on _ITV_1376
-[2018-04-11T06:18:31Z, INFO]              106     502k        113        F   on _ITV_1116
-[2018-04-11T06:18:31Z, INFO]              106     503k          2            on _ITV_1874
-[2018-04-11T06:18:31Z, INFO]              106     504k        186        F   on _ITV_17
-[2018-04-11T06:18:31Z, INFO]              106     505k          1            on _ITV_1952
-[2018-04-11T06:18:31Z, INFO]              106     506k          1        F   on _ITV_482
-[2018-04-11T06:18:31Z, INFO]              106     507k          2            on _ITV_1340
-[2018-04-11T06:18:31Z, INFO]              106     508k          2            on _ITV_101
-[2018-04-11T06:18:32Z, INFO]              106     509k          2            on _ITV_1132
-[2018-04-11T06:18:32Z, INFO]              106     510k          2        F   on _ITV_1279
-[2018-04-11T06:18:32Z, INFO]              106     511k          1        F   on _ITV_67
-[2018-04-11T06:18:32Z, INFO]              106     512k          2            on _ITV_2122
-[2018-04-11T06:18:32Z, INFO]              106     513k         24            on _ITV_131
-[2018-04-11T06:18:32Z, INFO]  ! Time = 63.97s, Average fail depth = 112, Memory usage = 29.8 MB
-[2018-04-11T06:18:32Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:18:32Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:18:32Z, INFO]              106     514k        140            on _ITV_35
-[2018-04-11T06:18:32Z, INFO]              106     515k          2            on _ITV_1238
-[2018-04-11T06:18:32Z, INFO]              106     516k          2            on _ITV_2331
-[2018-04-11T06:18:33Z, INFO]              106     517k          2            on _ITV_136
-[2018-04-11T06:18:33Z, INFO]              106     518k          1        F   on _ITV_1262
-[2018-04-11T06:18:33Z, INFO]              106     519k         41        F   on _ITV_1277
-[2018-04-11T06:18:33Z, INFO]              106     520k          2            on _ITV_2062
-[2018-04-11T06:18:33Z, INFO]              106     521k          2            on _ITV_2056
-[2018-04-11T06:18:33Z, INFO]              106     522k         30            on _ITV_166
-[2018-04-11T06:18:33Z, INFO]              106     523k         15            on _ITV_889
-[2018-04-11T06:18:33Z, INFO]              106     524k          1            on _ITV_731
-[2018-04-11T06:18:33Z, INFO]              106     525k          2        F   on _ITV_1336
-[2018-04-11T06:18:33Z, INFO]              106     526k         56            on _ITV_889
-[2018-04-11T06:18:33Z, INFO]              106     527k          1            on _ITV_2862
-[2018-04-11T06:18:33Z, INFO]              106     528k          2        F   on _ITV_2120
-[2018-04-11T06:18:34Z, INFO]              106     529k        467        F   on _ITV_1020
-[2018-04-11T06:18:34Z, INFO]              106     530k          1            on _ITV_1071
-[2018-04-11T06:18:34Z, INFO]              106     531k        184            on _ITV_2311
-[2018-04-11T06:18:34Z, INFO]              106     532k          2            on _ITV_1107
-[2018-04-11T06:18:34Z, INFO]              106     533k        189        F   on _ITV_2729
-[2018-04-11T06:18:34Z, INFO]  ! Time = 65.79s, Average fail depth = 111, Memory usage = 29.8 MB
-[2018-04-11T06:18:34Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:18:34Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:18:34Z, INFO]              106     534k          2            on _ITV_2468
-[2018-04-11T06:18:34Z, INFO]              106     535k          2        F   on _ITV_2069
-[2018-04-11T06:18:34Z, INFO]              106     536k         31            on _ITV_659
-[2018-04-11T06:18:34Z, INFO]              106     537k          2            on _ITV_352
-[2018-04-11T06:18:34Z, INFO]              106     538k          2            on _ITV_196
-[2018-04-11T06:18:34Z, INFO]              106     539k          1        F   on _ITV_240
-[2018-04-11T06:18:35Z, INFO]              106     540k          2        F   on _ITV_1336
-[2018-04-11T06:18:35Z, INFO]              106     541k          2            on _ITV_132
-[2018-04-11T06:18:35Z, INFO]              106     542k          2            on _ITV_75
-[2018-04-11T06:18:35Z, INFO]              106     543k          2            on _ITV_103
-[2018-04-11T06:18:35Z, INFO]              106     544k         63        F   on _ITV_493
-[2018-04-11T06:18:35Z, INFO]              106     545k         64            on _ITV_152
-[2018-04-11T06:18:36Z, INFO]              106     546k          2            on _ITV_427
-[2018-04-11T06:18:36Z, INFO]              106     547k       2156            on _ITV_1855
-[2018-04-11T06:18:36Z, INFO]              106     548k       1096            on _ITV_2799
-[2018-04-11T06:18:36Z, INFO]              106     549k         42        F   on _ITV_2979
-[2018-04-11T06:18:36Z, INFO]              106     550k          2            on _ITV_1936
-[2018-04-11T06:18:36Z, INFO]              106     551k          1        F   on _ITV_1303
-[2018-04-11T06:18:36Z, INFO]              106     552k        217            on _ITV_2779
-[2018-04-11T06:18:36Z, INFO]              106     553k          2        F   on _ITV_54
-[2018-04-11T06:18:36Z, INFO]  ! Time = 68.11s, Average fail depth = 111, Memory usage = 29.8 MB
-[2018-04-11T06:18:36Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:18:36Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:18:36Z, INFO]              106     554k          2        F   on _ITV_1279
-[2018-04-11T06:18:36Z, INFO]              106     555k          2        F   on _ITV_1782
-[2018-04-11T06:18:36Z, INFO]              106     556k         91            on _ITV_278
-[2018-04-11T06:18:37Z, INFO]              106     557k          2            on _ITV_2345
-[2018-04-11T06:18:37Z, INFO]              106     558k          2        F   on _ITV_2570
-[2018-04-11T06:18:37Z, INFO]              106     559k          2            on _ITV_22
-[2018-04-11T06:18:37Z, INFO]              106     560k          2            on _ITV_1295
-[2018-04-11T06:18:37Z, INFO]              106     561k        222            on _ITV_759
-[2018-04-11T06:18:37Z, INFO]              106     562k          2            on _ITV_2265
-[2018-04-11T06:18:37Z, INFO]              106     563k          2        F   on _ITV_62
-[2018-04-11T06:18:38Z, INFO]              106     564k          2        F   on _ITV_1478
-[2018-04-11T06:18:38Z, INFO]              106     565k         69            on _ITV_1823
-[2018-04-11T06:18:38Z, INFO]              106     566k          2            on _ITV_1616
-[2018-04-11T06:18:38Z, INFO]              106     567k       1797            on _ITV_2674
-[2018-04-11T06:18:38Z, INFO]              106     568k        742            on _ITV_2423
-[2018-04-11T06:18:38Z, INFO]              106     569k          1            on _ITV_142
-[2018-04-11T06:18:38Z, INFO]              106     570k          2            on _ITV_155
-[2018-04-11T06:18:38Z, INFO]              106     571k          2            on _ITV_2546
-[2018-04-11T06:18:39Z, INFO]              106     572k       1535            on _ITV_2625
-[2018-04-11T06:18:39Z, INFO]              106     573k        535            on _ITV_1940
-[2018-04-11T06:18:39Z, INFO]  ! Time = 70.54s, Average fail depth = 111, Memory usage = 30.1 MB
-[2018-04-11T06:18:39Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:18:39Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:18:39Z, INFO]              106     574k        276            on _ITV_1484
-[2018-04-11T06:18:39Z, INFO]              106     575k       1642            on _ITV_2631
-[2018-04-11T06:18:39Z, INFO]              106     576k        642            on _ITV_854
-[2018-04-11T06:18:39Z, INFO]              106     577k        270        F   on _ITV_2699
-[2018-04-11T06:18:39Z, INFO]              106     578k          2            on _ITV_1506
-[2018-04-11T06:18:40Z, INFO]              106     579k          2        F   on _ITV_123
-[2018-04-11T06:18:40Z, INFO]              106     580k          2        F   on _ITV_1173
-[2018-04-11T06:18:40Z, INFO]              106     581k          2            on _ITV_2468
-[2018-04-11T06:18:40Z, INFO]              106     582k          2        F   on _ITV_2297
-[2018-04-11T06:18:40Z, INFO]              106     583k         38        F   on _ITV_102
-[2018-04-11T06:18:40Z, INFO]              106     584k          1        F   on _ITV_57
-[2018-04-11T06:18:40Z, INFO]              106     585k          1            on _ITV_319
-[2018-04-11T06:18:40Z, INFO]              106     586k          2        F   on _ITV_377
-[2018-04-11T06:18:40Z, INFO]              106     587k         46        F   on _ITV_393
-[2018-04-11T06:18:40Z, INFO]              106     588k        140        F   on _ITV_573
-[2018-04-11T06:18:40Z, INFO]              106     589k          2        F   on _ITV_377
-[2018-04-11T06:18:41Z, INFO]              106     590k          2            on _ITV_2120
-[2018-04-11T06:18:41Z, INFO]              106     591k          2            on _ITV_1812
-[2018-04-11T06:18:41Z, INFO]              106     592k          1            on _ITV_134
-[2018-04-11T06:18:41Z, INFO]              106     593k         89        F   on _ITV_114
-[2018-04-11T06:18:41Z, INFO]  ! Time = 72.94s, Average fail depth = 116, Memory usage = 29.8 MB
-[2018-04-11T06:18:41Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:18:41Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:18:41Z, INFO]              106     594k          2        F   on _ITV_1584
-[2018-04-11T06:18:41Z, INFO]              106     595k          1            on _ITV_536
-[2018-04-11T06:18:41Z, INFO]              106     596k         12            on _ITV_312
-[2018-04-11T06:18:41Z, INFO]              106     597k          1        F   106  = kpi_1
-[2018-04-11T06:18:41Z, INFO]              106     598k          2        F   on _ITV_437
-[2018-04-11T06:18:42Z, INFO]              106     599k          1            on _ITV_231
-[2018-04-11T06:18:42Z, INFO]              106     600k        328            on _ITV_1181
-[2018-04-11T06:18:42Z, INFO]              106     601k        126            on _ITV_2498
-[2018-04-11T06:18:42Z, INFO]              106     602k        133        F   on _ITV_1132
-[2018-04-11T06:18:42Z, INFO]              106     603k          1            on _ITV_2858
-[2018-04-11T06:18:42Z, INFO]              106     604k          1            on _ITV_2276
-[2018-04-11T06:18:42Z, INFO]              106     605k        315            on _ITV_42
-[2018-04-11T06:18:42Z, INFO]              106     606k        321        F   on _ITV_1782
-[2018-04-11T06:18:42Z, INFO]              106     607k          2        F   on _ITV_566
-[2018-04-11T06:18:43Z, INFO]              106     608k          2            on _ITV_1366
-[2018-04-11T06:18:43Z, INFO]              106     609k          1            on _ITV_3047
-[2018-04-11T06:18:43Z, INFO]              106     610k        310            on _ITV_1805
-[2018-04-11T06:18:43Z, INFO]              106     611k          2        F   on _ITV_136
-[2018-04-11T06:18:43Z, INFO]              106     612k        832            on _ITV_173
-[2018-04-11T06:18:43Z, INFO]              106     613k        589        F   on _ITV_133
-[2018-04-11T06:18:43Z, INFO]  ! Time = 74.96s, Average fail depth = 119, Memory usage = 30.1 MB
-[2018-04-11T06:18:43Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:18:43Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:18:43Z, INFO]              106     614k         53            on _ITV_150
-[2018-04-11T06:18:43Z, INFO]              106     615k          2            on _ITV_1181
-[2018-04-11T06:18:44Z, INFO]              106     616k          2            on _ITV_1370
-[2018-04-11T06:18:44Z, INFO]              106     617k          2            on _ITV_2534
-[2018-04-11T06:18:44Z, INFO]              106     618k         13        F   on _ITV_2162
-[2018-04-11T06:18:44Z, INFO]              106     619k        302        F   on _ITV_2175
-[2018-04-11T06:18:44Z, INFO]              106     620k        110            on _ITV_2247
-[2018-04-11T06:18:44Z, INFO]              106     621k          2        F   on _ITV_818
-[2018-04-11T06:18:44Z, INFO]              106     622k          2            on _ITV_144
-[2018-04-11T06:18:44Z, INFO]              106     623k          2        F   on _ITV_460
-[2018-04-11T06:18:44Z, INFO]              106     624k          9            on _ITV_1887
-[2018-04-11T06:18:45Z, INFO]              106     625k          2        F   on _ITV_415
-[2018-04-11T06:18:45Z, INFO]              106     626k          2        F   on _ITV_2986
-[2018-04-11T06:18:45Z, INFO]              106     627k        291            on _ITV_2882
-[2018-04-11T06:18:45Z, INFO]              106     628k          2        F   on _ITV_60
-[2018-04-11T06:18:45Z, INFO]              106     629k          2        F   on _ITV_134
-[2018-04-11T06:18:45Z, INFO]              106     630k          2            on _ITV_165
-[2018-04-11T06:18:46Z, INFO]              106     631k         67            on _ITV_3061
-[2018-04-11T06:18:46Z, INFO]              106     632k        139        F   on _ITV_2859
-[2018-04-11T06:18:46Z, INFO]              106     633k          2            on _ITV_205
-[2018-04-11T06:18:46Z, INFO]  ! Time = 77.67s, Average fail depth = 119, Memory usage = 30.1 MB
-[2018-04-11T06:18:46Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:18:46Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:18:46Z, INFO]              106     634k          2        F   on _ITV_536
-[2018-04-11T06:18:46Z, INFO]              106     635k          2            on _ITV_1252
-[2018-04-11T06:18:46Z, INFO]              106     636k          2        F   on _ITV_368
-[2018-04-11T06:18:46Z, INFO]              106     637k          2            on _ITV_3058
-[2018-04-11T06:18:47Z, INFO]              106     638k        290            on _ITV_361
-[2018-04-11T06:18:47Z, INFO]              106     639k        164            on _ITV_566
-[2018-04-11T06:18:47Z, INFO]              106     640k          2        F   on _ITV_1303
-[2018-04-11T06:18:47Z, INFO]              106     641k          2        F   on _ITV_3064
-[2018-04-11T06:18:47Z, INFO]              106     642k          1            on _ITV_2985
-[2018-04-11T06:18:48Z, INFO]              106     643k          2            on _ITV_1507
-[2018-04-11T06:18:48Z, INFO]              106     644k          2            on _ITV_2983
-[2018-04-11T06:18:48Z, INFO]              106     645k        246            on _ITV_2119
-[2018-04-11T06:18:48Z, INFO]              106     646k          2        F   on _ITV_31
-[2018-04-11T06:18:48Z, INFO]              106     647k         26        F   on _ITV_1526
-[2018-04-11T06:18:48Z, INFO]              106     648k          2            on _ITV_1365
-[2018-04-11T06:18:48Z, INFO]              106     649k          2            on _ITV_95
-[2018-04-11T06:18:48Z, INFO]              106     650k          2            on _ITV_826
-[2018-04-11T06:18:49Z, INFO]              106     651k          2            on _ITV_1556
-[2018-04-11T06:18:49Z, INFO]              106     652k       1805            on _ITV_1701
-[2018-04-11T06:18:49Z, INFO]              106     653k        911            on _ITV_2385
-[2018-04-11T06:18:49Z, INFO]  ! Time = 80.76s, Average fail depth = 119, Memory usage = 30.7 MB
-[2018-04-11T06:18:49Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:18:49Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:18:49Z, INFO]              106     654k        376            on _ITV_1914
-[2018-04-11T06:18:49Z, INFO]              106     655k          2        F   on _ITV_1303
-[2018-04-11T06:18:49Z, INFO]              106     656k          2            on _ITV_24
-[2018-04-11T06:18:49Z, INFO]              106     657k          2            on _ITV_273
-[2018-04-11T06:18:49Z, INFO]              106     658k       2168            on _ITV_1193
-[2018-04-11T06:18:49Z, INFO]              106     659k       1168            on _ITV_2379
-[2018-04-11T06:18:49Z, INFO]              106     660k        273        F   on _ITV_1200
-[2018-04-11T06:18:49Z, INFO]              106     661k          2            on _ITV_536
-[2018-04-11T06:18:50Z, INFO]              106     662k          2            on _ITV_2697
-[2018-04-11T06:18:50Z, INFO]              106     663k          2        F   on _ITV_163
-[2018-04-11T06:18:50Z, INFO]              106     664k          2        F   on _ITV_460
-[2018-04-11T06:18:50Z, INFO]              106     665k          2        F   on _ITV_31
-[2018-04-11T06:18:50Z, INFO]              106     666k         76            on _ITV_3264
-[2018-04-11T06:18:50Z, INFO]              106     667k         68        F   on _ITV_142
-[2018-04-11T06:18:50Z, INFO]              106     668k         72            on _ITV_801
-[2018-04-11T06:18:50Z, INFO]              106     669k       1441            on _ITV_2048
-[2018-04-11T06:18:50Z, INFO]              106     670k        433            on _ITV_1722
-[2018-04-11T06:18:51Z, INFO]              106     671k          2        F   on _ITV_1555
-[2018-04-11T06:18:51Z, INFO]              106     672k          1            on _ITV_2412
-[2018-04-11T06:18:51Z, INFO]              106     673k          2            on _ITV_605
-[2018-04-11T06:18:51Z, INFO]  ! Time = 82.87s, Average fail depth = 127, Memory usage = 30.4 MB
-[2018-04-11T06:18:51Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:18:51Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:18:51Z, INFO]              106     674k          2            on _ITV_2937
-[2018-04-11T06:18:51Z, INFO]              106     675k         11            on _ITV_19
-[2018-04-11T06:18:51Z, INFO]              106     676k       2444        F   on _ITV_142
-[2018-04-11T06:18:52Z, INFO]              106     677k        630            on _ITV_2594
-[2018-04-11T06:18:52Z, INFO]              106     678k          2        F   on _ITV_1936
-[2018-04-11T06:18:52Z, INFO]              106     679k          2            on _ITV_41
-[2018-04-11T06:18:52Z, INFO]              106     680k          2            on _ITV_1952
-[2018-04-11T06:18:53Z, INFO]              106     681k          2            on _ITV_1107
-[2018-04-11T06:18:53Z, INFO]              106     682k          2        F   on _ITV_2427
-[2018-04-11T06:18:53Z, INFO]              106     683k         42        F   on _ITV_124
-[2018-04-11T06:18:53Z, INFO]              106     684k          2            on _ITV_2590
-[2018-04-11T06:18:53Z, INFO]              106     685k          2            on _ITV_111
-[2018-04-11T06:18:53Z, INFO]              106     686k          2            on _ITV_42
-[2018-04-11T06:18:53Z, INFO]              106     687k          2        F   on _ITV_3122
-[2018-04-11T06:18:54Z, INFO]              106     688k          2        F   on _ITV_1977
-[2018-04-11T06:18:54Z, INFO]              106     689k        149        F   on _ITV_2288
-[2018-04-11T06:18:54Z, INFO]              106     690k          2        F   on _ITV_1484
-[2018-04-11T06:18:54Z, INFO]              106     691k          1            on _ITV_2367
-[2018-04-11T06:18:54Z, INFO]              106     692k          2            on _ITV_1698
-[2018-04-11T06:18:54Z, INFO]              106     693k          2        F   on _ITV_92
-[2018-04-11T06:18:54Z, INFO]  ! Time = 86.01s, Average fail depth = 126, Memory usage = 30.6 MB
-[2018-04-11T06:18:54Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:18:54Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:18:54Z, INFO]              106     694k          2        F   on _ITV_818
-[2018-04-11T06:18:54Z, INFO]              106     695k          5            on _ITV_3269
-[2018-04-11T06:18:54Z, INFO]              106     696k          2        F   on _ITV_1735
-[2018-04-11T06:18:55Z, INFO]              106     697k          5            on _ITV_686
-[2018-04-11T06:18:55Z, INFO]              106     698k          2            on _ITV_1969
-[2018-04-11T06:18:55Z, INFO]              106     699k         64            on _ITV_1083
-[2018-04-11T06:18:55Z, INFO]              106     700k          2        F   on _ITV_139
-[2018-04-11T06:18:55Z, INFO]              106     701k         93        F   on _ITV_2854
-[2018-04-11T06:18:55Z, INFO]              106     702k         96            on _ITV_1673
-[2018-04-11T06:18:55Z, INFO]              106     703k          2            on _ITV_2858
-[2018-04-11T06:18:55Z, INFO]              106     704k          2            on _ITV_2291
-[2018-04-11T06:18:56Z, INFO]              106     705k        323        F   on _ITV_3144
-[2018-04-11T06:18:56Z, INFO]              106     706k         83            on _ITV_205
-[2018-04-11T06:18:56Z, INFO]              106     707k         82            on _ITV_1809
-[2018-04-11T06:18:56Z, INFO]              106     708k          2        F   on _ITV_205
-[2018-04-11T06:18:56Z, INFO]              106     709k          2            on _ITV_2728
-[2018-04-11T06:18:56Z, INFO]              106     710k          1            on _ITV_761
-[2018-04-11T06:18:56Z, INFO]              106     711k        178            on _ITV_139
-[2018-04-11T06:18:57Z, INFO]              106     712k          2            on _ITV_341
-[2018-04-11T06:18:57Z, INFO]              106     713k       2172            on _ITV_619
-[2018-04-11T06:18:57Z, INFO]  ! Time = 88.63s, Average fail depth = 124, Memory usage = 30.8 MB
-[2018-04-11T06:18:57Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:18:57Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:18:57Z, INFO]              106     714k       1172            on _ITV_2354
-[2018-04-11T06:18:57Z, INFO]              106     715k        269            on _ITV_2974
-[2018-04-11T06:18:57Z, INFO]              106     716k          2            on _ITV_1424
-[2018-04-11T06:18:57Z, INFO]              106     717k        103            on _ITV_297
-[2018-04-11T06:18:57Z, INFO]              106     718k          5            on _ITV_2619
-[2018-04-11T06:18:57Z, INFO]              106     719k        784        F   on _ITV_839
-[2018-04-11T06:18:57Z, INFO]              106     720k          2            on _ITV_3216
-[2018-04-11T06:18:57Z, INFO]              106     721k         64        F   on _ITV_2953
-[2018-04-11T06:18:57Z, INFO]              106     722k         67        F   on _ITV_2573
-[2018-04-11T06:18:57Z, INFO]              106     723k        282            on _ITV_2883
-[2018-04-11T06:18:58Z, INFO]              106     724k          2            on _ITV_1120
-[2018-04-11T06:18:58Z, INFO]              106     725k          2            on _ITV_2605
-[2018-04-11T06:18:58Z, INFO]              106     726k          2        F   on _ITV_856
-[2018-04-11T06:18:58Z, INFO]              106     727k         82        F   on _ITV_1104
-[2018-04-11T06:18:59Z, INFO]              106     728k          2            on _ITV_2208
-[2018-04-11T06:18:59Z, INFO]              106     729k          2        F   on _ITV_1391
-[2018-04-11T06:18:59Z, INFO]              106     730k          2        F   on _ITV_1171
-[2018-04-11T06:18:59Z, INFO]              106     731k         33            on _ITV_328
-[2018-04-11T06:18:59Z, INFO]              106     732k          2            on _ITV_2367
-[2018-04-11T06:19:00Z, INFO]              106     733k          2        F   on _ITV_103
-[2018-04-11T06:19:00Z, INFO]  ! Time = 91.64s, Average fail depth = 126, Memory usage = 30.5 MB
-[2018-04-11T06:19:00Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:19:00Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:19:00Z, INFO]              106     734k          2            on _ITV_2862
-[2018-04-11T06:19:00Z, INFO]              106     735k          2        F   on _ITV_2544
-[2018-04-11T06:19:00Z, INFO]              106     736k          5            on _ITV_2625
-[2018-04-11T06:19:00Z, INFO]              106     737k        124            on _ITV_1290
-[2018-04-11T06:19:00Z, INFO]              106     738k        130        F   on _ITV_1890
-[2018-04-11T06:19:00Z, INFO]              106     739k          2            on _ITV_2516
-[2018-04-11T06:19:00Z, INFO]              106     740k          2        F   on _ITV_1118
-[2018-04-11T06:19:01Z, INFO]              106     741k         26        F   on _ITV_1736
-[2018-04-11T06:19:01Z, INFO]              106     742k        130            on _ITV_1330
-[2018-04-11T06:19:01Z, INFO]              106     743k       1577            on _ITV_1786
-[2018-04-11T06:19:01Z, INFO]              106     744k        567            on _ITV_3266
-[2018-04-11T06:19:01Z, INFO]              106     745k          2            on _ITV_386
-[2018-04-11T06:19:01Z, INFO]              106     746k         23        F   on _ITV_2883
-[2018-04-11T06:19:01Z, INFO]              106     747k          2            on _ITV_2642
-[2018-04-11T06:19:02Z, INFO]              106     748k          2        F   on _ITV_1365
-[2018-04-11T06:19:02Z, INFO]              106     749k          2        F   on _ITV_2293
-[2018-04-11T06:19:02Z, INFO]              106     750k          2            on _ITV_605
-[2018-04-11T06:19:02Z, INFO]              106     751k          2            on _ITV_1514
-[2018-04-11T06:19:02Z, INFO]              106     752k        324        F   on _ITV_681
-[2018-04-11T06:19:02Z, INFO]              106     753k          2            on _ITV_642
-[2018-04-11T06:19:02Z, INFO]  ! Time = 94.34s, Average fail depth = 126, Memory usage = 30.6 MB
-[2018-04-11T06:19:02Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:19:02Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:19:03Z, INFO]              106     754k          2            on _ITV_786
-[2018-04-11T06:19:03Z, INFO]              106     755k          2            on _ITV_1715
-[2018-04-11T06:19:03Z, INFO]              106     756k          2            on _ITV_1505
-[2018-04-11T06:19:03Z, INFO]              106     757k         65        F   on _ITV_1957
-[2018-04-11T06:19:03Z, INFO]              106     758k          2            on _ITV_139
-[2018-04-11T06:19:03Z, INFO]              106     759k         60        F   on _ITV_21
-[2018-04-11T06:19:03Z, INFO]              106     760k          2        F   on _ITV_1386
-[2018-04-11T06:19:04Z, INFO]              106     761k          2            on _ITV_1249
-[2018-04-11T06:19:04Z, INFO]              106     762k          1            on _ITV_1215
-[2018-04-11T06:19:04Z, INFO]              106     763k          2            on _ITV_2311
-[2018-04-11T06:19:04Z, INFO]              106     764k          2            on _ITV_1471
-[2018-04-11T06:19:04Z, INFO]              106     765k          2        F   on _ITV_386
-[2018-04-11T06:19:05Z, INFO]              106     766k          2            on _ITV_3264
-[2018-04-11T06:19:05Z, INFO]              106     767k          2        F   on _ITV_76
-[2018-04-11T06:19:05Z, INFO]              106     768k         27        F   on _ITV_2089
-[2018-04-11T06:19:05Z, INFO]              106     769k          2            on _ITV_725
-[2018-04-11T06:19:05Z, INFO]              106     770k          2            on _ITV_620
-[2018-04-11T06:19:06Z, INFO]              106     771k          2            on _ITV_415
-[2018-04-11T06:19:06Z, INFO]              106     772k         18        F   on _ITV_256
-[2018-04-11T06:19:06Z, INFO]              106     773k          2        F   on _ITV_142
-[2018-04-11T06:19:06Z, INFO]  ! Time = 97.96s, Average fail depth = 125, Memory usage = 30.5 MB
-[2018-04-11T06:19:06Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:19:06Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:19:06Z, INFO]              106     774k          2            on _ITV_2367
-[2018-04-11T06:19:06Z, INFO]              106     775k        167            on _ITV_2367
-[2018-04-11T06:19:06Z, INFO]              106     776k          2        F   on _ITV_231
-[2018-04-11T06:19:06Z, INFO]              106     777k          2            on _ITV_517
-[2018-04-11T06:19:06Z, INFO]              106     778k         18            on _ITV_1400
-[2018-04-11T06:19:06Z, INFO]              106     779k          2            on _ITV_194
-[2018-04-11T06:19:06Z, INFO]              106     780k          8            on _ITV_223
-[2018-04-11T06:19:06Z, INFO]              106     781k          5        F   on _ITV_17
-[2018-04-11T06:19:07Z, INFO]              106     782k          5            on _ITV_329
-[2018-04-11T06:19:07Z, INFO]              106     783k       1577            on _ITV_896
-[2018-04-11T06:19:07Z, INFO]              106     784k          2            on _ITV_150
-[2018-04-11T06:19:07Z, INFO]              106     785k          2        F   on _ITV_2406
-[2018-04-11T06:19:07Z, INFO]              106     786k         11            on _ITV_2166
-[2018-04-11T06:19:07Z, INFO]              106     787k          2        F   on _ITV_1866
-[2018-04-11T06:19:07Z, INFO]              106     788k         50        F   on _ITV_798
-[2018-04-11T06:19:07Z, INFO]              106     789k          2        F   on _ITV_2819
-[2018-04-11T06:19:07Z, INFO]              106     790k        217        F   on _ITV_2819
-[2018-04-11T06:19:08Z, INFO]              106     791k         19        F   on _ITV_26
-[2018-04-11T06:19:08Z, INFO]              106     792k          2            on _ITV_853
-[2018-04-11T06:19:08Z, INFO]              106     793k        178        F   on _ITV_544
-[2018-04-11T06:19:08Z, INFO]  ! Time = 99.71s, Average fail depth = 125, Memory usage = 30.5 MB
-[2018-04-11T06:19:08Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:19:08Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:19:08Z, INFO]              106     794k        180            on _ITV_141
-[2018-04-11T06:19:08Z, INFO]              106     795k          1            on _ITV_3077
-[2018-04-11T06:19:08Z, INFO]              106     796k          2        F   on _ITV_19
-[2018-04-11T06:19:08Z, INFO]              106     797k        237        F   on _ITV_19
-[2018-04-11T06:19:08Z, INFO]              106     798k          2        F   on _ITV_649
-[2018-04-11T06:19:08Z, INFO]              106     799k        953        F   on _ITV_1169
-[2018-04-11T06:19:08Z, INFO]              106     800k         69        F   on _ITV_1206
-[2018-04-11T06:19:09Z, INFO]              106     801k          2            on _ITV_140
-[2018-04-11T06:19:09Z, INFO]              106     802k          2            on _ITV_998
-[2018-04-11T06:19:09Z, INFO]              106     803k        287            on _ITV_2569
-[2018-04-11T06:19:09Z, INFO]              106     804k        287        F   on _ITV_3086
-[2018-04-11T06:19:09Z, INFO]              106     805k          5        F   on _ITV_154
-[2018-04-11T06:19:09Z, INFO]              106     806k         56            on _ITV_1616
-[2018-04-11T06:19:09Z, INFO]              106     807k         49        F   on _ITV_1996
-[2018-04-11T06:19:09Z, INFO]              106     808k         46            on _ITV_2112
-[2018-04-11T06:19:09Z, INFO]              106     809k         33        F   on _ITV_67
-[2018-04-11T06:19:09Z, INFO]              106     810k         27            on _ITV_2920
-[2018-04-11T06:19:09Z, INFO]              106     811k        194        F   on _ITV_2720
-[2018-04-11T06:19:10Z, INFO]              106     812k         56            on _ITV_111
-[2018-04-11T06:19:10Z, INFO]              106     813k         11        F   on _ITV_1790
-[2018-04-11T06:19:10Z, INFO]  ! Time = 101.55s, Average fail depth = 127, Memory usage = 29.1 MB
-[2018-04-11T06:19:10Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:19:10Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:19:10Z, INFO]              106     814k         15            on _ITV_2240
-[2018-04-11T06:19:10Z, INFO]              106     815k          2            on _ITV_1715
-[2018-04-11T06:19:10Z, INFO]              106     816k         41        F   on _ITV_783
-[2018-04-11T06:19:10Z, INFO]              106     817k          2        F   on _ITV_22
-[2018-04-11T06:19:10Z, INFO]              106     818k          2            on _ITV_240
-[2018-04-11T06:19:10Z, INFO]              106     819k          2            on _ITV_1782
-[2018-04-11T06:19:11Z, INFO]              106     820k          2            on _ITV_1476
-[2018-04-11T06:19:11Z, INFO]              106     821k          2            on _ITV_620
-[2018-04-11T06:19:11Z, INFO]              106     822k          2            on _ITV_1107
-[2018-04-11T06:19:11Z, INFO]              106     823k          2        F   on _ITV_1354
-[2018-04-11T06:19:12Z, INFO]              106     824k          2        F   on _ITV_1506
-[2018-04-11T06:19:12Z, INFO]              106     825k          2        F   on _ITV_1563
-[2018-04-11T06:19:12Z, INFO]              106     826k          2            on _ITV_3216
-[2018-04-11T06:19:12Z, INFO]              106     827k          2        F   on _ITV_50
-[2018-04-11T06:19:12Z, INFO]              106     828k          2        F   on _ITV_785
-[2018-04-11T06:19:12Z, INFO]              106     829k        203        F   on _ITV_2706
-[2018-04-11T06:19:13Z, INFO]              106     830k          2            on _ITV_100
-[2018-04-11T06:19:13Z, INFO]              106     831k          2            on _ITV_1329
-[2018-04-11T06:19:13Z, INFO]              106     832k         30            on _ITV_1920
-[2018-04-11T06:19:13Z, INFO]              106     833k          1            on _ITV_14
-[2018-04-11T06:19:13Z, INFO]  ! Time = 104.82s, Average fail depth = 125, Memory usage = 29.0 MB
-[2018-04-11T06:19:13Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:19:13Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:19:13Z, INFO]              106     834k          1            on _ITV_2146
-[2018-04-11T06:19:13Z, INFO]              106     835k          2        F   on _ITV_1497
-[2018-04-11T06:19:13Z, INFO]              106     836k          1            on _ITV_78
-[2018-04-11T06:19:13Z, INFO]              106     837k        129        F   on _ITV_2345
-[2018-04-11T06:19:13Z, INFO]              106     838k        132            on _ITV_2741
-[2018-04-11T06:19:14Z, INFO]              106     839k          2            on _ITV_1352
-[2018-04-11T06:19:14Z, INFO]              106     840k        604            on _ITV_438
-[2018-04-11T06:19:14Z, INFO]              106     841k        204        F   on _ITV_54
-[2018-04-11T06:19:14Z, INFO]              106     842k          2        F   on _ITV_6
-[2018-04-11T06:19:14Z, INFO]              106     843k          2            on _ITV_999
-[2018-04-11T06:19:14Z, INFO]              106     844k        136            on _ITV_1626
-[2018-04-11T06:19:14Z, INFO]              106     845k        108            on _ITV_2583
-[2018-04-11T06:19:14Z, INFO]              106     846k          2            on _ITV_525
-[2018-04-11T06:19:15Z, INFO]              106     847k       2014            on _ITV_977
-[2018-04-11T06:19:15Z, INFO]              106     848k       1012            on _ITV_2616
-[2018-04-11T06:19:15Z, INFO]              106     849k          2            on _ITV_1245
-[2018-04-11T06:19:15Z, INFO]              106     850k          1        F   on _ITV_1715
-[2018-04-11T06:19:15Z, INFO]              106     851k          2            on _ITV_1012
-[2018-04-11T06:19:15Z, INFO]              106     852k         23        F   on _ITV_2932
-[2018-04-11T06:19:15Z, INFO]              106     853k          1        F   on _ITV_2643
-[2018-04-11T06:19:15Z, INFO]  ! Time = 107.08s, Average fail depth = 125, Memory usage = 30.1 MB
-[2018-04-11T06:19:15Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:19:15Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:19:15Z, INFO]              106     854k         86            on _ITV_2078
-[2018-04-11T06:19:15Z, INFO]              106     855k          2            on _ITV_1233
-[2018-04-11T06:19:15Z, INFO]              106     856k        303            on _ITV_24
-[2018-04-11T06:19:16Z, INFO]              106     857k          1        F   on _ITV_52
-[2018-04-11T06:19:16Z, INFO]              106     858k          2            on _ITV_3008
-[2018-04-11T06:19:16Z, INFO]              106     859k        108        F   on _ITV_758
-[2018-04-11T06:19:16Z, INFO]              106     860k        110            on _ITV_368
-[2018-04-11T06:19:16Z, INFO]              106     861k          2        F   on _ITV_1245
-[2018-04-11T06:19:16Z, INFO]              106     862k          2            on _ITV_1365
-[2018-04-11T06:19:16Z, INFO]              106     863k        116        F   on _ITV_826
-[2018-04-11T06:19:16Z, INFO]              106     864k        121            on _ITV_3023
-[2018-04-11T06:19:16Z, INFO]              106     865k         14        F   on _ITV_72
-[2018-04-11T06:19:17Z, INFO]              106     866k          2            on _ITV_649
-[2018-04-11T06:19:17Z, INFO]              106     867k          1            on _ITV_39
-[2018-04-11T06:19:17Z, INFO]              106     868k          2            on _ITV_538
-[2018-04-11T06:19:17Z, INFO]              106     869k          2            on _ITV_136
-[2018-04-11T06:19:17Z, INFO]              106     870k         60        F   on _ITV_106
-[2018-04-11T06:19:17Z, INFO]              106     871k         38            on _ITV_1453
-[2018-04-11T06:19:17Z, INFO]              106     872k          1            on _ITV_234
-[2018-04-11T06:19:17Z, INFO]              106     873k         60            on _ITV_1301
-[2018-04-11T06:19:17Z, INFO]  ! Time = 109.38s, Average fail depth = 125, Memory usage = 30.1 MB
-[2018-04-11T06:19:17Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:19:17Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:19:18Z, INFO]              106     874k         29        F   on _ITV_1066
-[2018-04-11T06:19:18Z, INFO]              106     875k          2            on _ITV_1485
-[2018-04-11T06:19:18Z, INFO]              106     876k        297            on _ITV_2057
-[2018-04-11T06:19:18Z, INFO]              106     877k        113        F   on _ITV_2591
-[2018-04-11T06:19:18Z, INFO]              106     878k          2            on _ITV_1810
-[2018-04-11T06:19:18Z, INFO]              106     879k          1            on _ITV_2265
-[2018-04-11T06:19:18Z, INFO]              106     880k          2            on _ITV_1378
-[2018-04-11T06:19:18Z, INFO]              106     881k          1            on _ITV_2345
-[2018-04-11T06:19:19Z, INFO]              106     882k          1        F   on _ITV_2898
-[2018-04-11T06:19:19Z, INFO]              106     883k        225            on _ITV_2535
-[2018-04-11T06:19:19Z, INFO]              106     884k        225            on _ITV_724
-[2018-04-11T06:19:19Z, INFO]              106     885k          1            on _ITV_1040
-[2018-04-11T06:19:19Z, INFO]              106     886k        106            on _ITV_1599
-[2018-04-11T06:19:19Z, INFO]              106     887k       2081            on _ITV_3149
-[2018-04-11T06:19:19Z, INFO]              106     888k       1081            on _ITV_2929
-[2018-04-11T06:19:19Z, INFO]              106     889k         46            on _ITV_1866
-[2018-04-11T06:19:19Z, INFO]              106     890k         75            on _ITV_503
-[2018-04-11T06:19:20Z, INFO]              106     891k          7        F   on _ITV_3214
-[2018-04-11T06:19:20Z, INFO]              106     892k         47            on _ITV_456
-[2018-04-11T06:19:20Z, INFO]              106     893k          2            on _ITV_1014
-[2018-04-11T06:19:20Z, INFO]  ! Time = 111.70s, Average fail depth = 125, Memory usage = 30.1 MB
-[2018-04-11T06:19:20Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:19:20Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:19:20Z, INFO]              106     894k          1            on _ITV_87
-[2018-04-11T06:19:20Z, INFO]              106     895k          2            on _ITV_910
-[2018-04-11T06:19:20Z, INFO]              106     896k          2        F   on _ITV_2725
-[2018-04-11T06:19:20Z, INFO]              106     897k          1            on _ITV_2307
-[2018-04-11T06:19:20Z, INFO]              106     898k        190            on _ITV_1548
-[2018-04-11T06:19:20Z, INFO]              106     899k          1            on _ITV_1424
-[2018-04-11T06:19:20Z, INFO]              106     900k          2        F   on _ITV_2302
-[2018-04-11T06:19:20Z, INFO]              106     901k          2            on _ITV_67
-[2018-04-11T06:19:20Z, INFO]              106     902k         99            on _ITV_557
-[2018-04-11T06:19:21Z, INFO]              106     903k          2            on _ITV_727
-[2018-04-11T06:19:21Z, INFO]              106     904k         80        F   on _ITV_3067
-[2018-04-11T06:19:21Z, INFO]              106     905k         63            on _ITV_289
-[2018-04-11T06:19:21Z, INFO]              106     906k         58        F   on _ITV_1736
-[2018-04-11T06:19:21Z, INFO]              106     907k          2        F   on _ITV_2705
-[2018-04-11T06:19:21Z, INFO]              106     908k        131        F   on _ITV_528
-[2018-04-11T06:19:21Z, INFO]              106     909k        132        F   on _ITV_1828
-[2018-04-11T06:19:21Z, INFO]              106     910k         28            on _ITV_145
-[2018-04-11T06:19:21Z, INFO]              106     911k          2        F   on _ITV_69
-[2018-04-11T06:19:21Z, INFO]              106     912k          2        F   on _ITV_2728
-[2018-04-11T06:19:22Z, INFO]              106     913k          2            on _ITV_526
-[2018-04-11T06:19:22Z, INFO]  ! Time = 113.51s, Average fail depth = 124, Memory usage = 30.1 MB
-[2018-04-11T06:19:22Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:19:22Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:19:22Z, INFO]              106     914k         57            on _ITV_2787
-[2018-04-11T06:19:22Z, INFO]              106     915k        274        F   on _ITV_1642
-[2018-04-11T06:19:22Z, INFO]              106     916k          2        F   on _ITV_2980
-[2018-04-11T06:19:22Z, INFO]              106     917k        199        F   on _ITV_24
-[2018-04-11T06:19:22Z, INFO]              106     918k        496        F   on _ITV_148
-[2018-04-11T06:19:22Z, INFO]              106     919k         61        F   on _ITV_758
-[2018-04-11T06:19:22Z, INFO]              106     920k         63            on _ITV_1461
-[2018-04-11T06:19:22Z, INFO]              106     921k         90            on _ITV_2516
-[2018-04-11T06:19:22Z, INFO]              106     922k        102        F   on _ITV_3098
-[2018-04-11T06:19:22Z, INFO]              106     923k         19        F   on _ITV_56
-[2018-04-11T06:19:22Z, INFO]              106     924k         19            on _ITV_490
-[2018-04-11T06:19:22Z, INFO]              106     925k          2            on _ITV_82
-[2018-04-11T06:19:22Z, INFO]              106     926k        171            on _ITV_130
-[2018-04-11T06:19:23Z, INFO]              106     927k          2            on _ITV_970
-[2018-04-11T06:19:23Z, INFO]              106     928k        198            on _ITV_2185
-[2018-04-11T06:19:23Z, INFO]              106     929k          2            on _ITV_1453
-[2018-04-11T06:19:23Z, INFO]              106     930k         50            on _ITV_2240
-[2018-04-11T06:19:23Z, INFO]              106     931k          1            on _ITV_487
-[2018-04-11T06:19:23Z, INFO]              106     932k          2        F   on _ITV_1275
-[2018-04-11T06:19:23Z, INFO]              106     933k          2            on _ITV_1275
-[2018-04-11T06:19:23Z, INFO]  ! Time = 115.09s, Average fail depth = 123, Memory usage = 30.6 MB
-[2018-04-11T06:19:23Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:19:23Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:19:23Z, INFO]              106     934k        660            on _ITV_2590
-[2018-04-11T06:19:23Z, INFO]              106     935k        375        F   on _ITV_1941
-[2018-04-11T06:19:23Z, INFO]              106     936k         18            on _ITV_455
-[2018-04-11T06:19:23Z, INFO]              106     937k         16            on _ITV_515
-[2018-04-11T06:19:24Z, INFO]              106     938k          2            on _ITV_1574
-[2018-04-11T06:19:24Z, INFO]              106     939k          2        F   on _ITV_1538
-[2018-04-11T06:19:24Z, INFO]              106     940k          2        F   on _ITV_129
-[2018-04-11T06:19:24Z, INFO]              106     941k          1            on _ITV_215
-[2018-04-11T06:19:24Z, INFO]              106     942k        272            on _ITV_3172
-[2018-04-11T06:19:24Z, INFO]              106     943k          2            on _ITV_240
-[2018-04-11T06:19:24Z, INFO]              106     944k          2            on _ITV_892
-[2018-04-11T06:19:25Z, INFO]              106     945k          2            on _ITV_1782
-[2018-04-11T06:19:25Z, INFO]              106     946k          2        F   on _ITV_571
-[2018-04-11T06:19:25Z, INFO]              106     947k          2            on _ITV_1424
-[2018-04-11T06:19:25Z, INFO]              106     948k        103            on _ITV_448
-[2018-04-11T06:19:25Z, INFO]              106     949k       1838            on _ITV_3315
-[2018-04-11T06:19:25Z, INFO]              106     950k        838            on _ITV_1110
-[2018-04-11T06:19:25Z, INFO]              106     951k          2            on _ITV_1497
-[2018-04-11T06:19:26Z, INFO]              106     952k          2            on _ITV_1866
-[2018-04-11T06:19:26Z, INFO]              106     953k          1            on _ITV_2147
-[2018-04-11T06:19:26Z, INFO]  ! Time = 117.77s, Average fail depth = 124, Memory usage = 30.2 MB
-[2018-04-11T06:19:26Z, INFO]  ! Current bound is 90 (gap is 15.09%)
-[2018-04-11T06:19:26Z, INFO]  !          Best Branches  Non-fixed            Branch decision
-[2018-04-11T06:19:26Z, INFO]              106     954k          2            on _ITV_118
-[2018-04-11T06:19:26Z, INFO]              106     955k          2            on _ITV_53
-[2018-04-11T06:19:26Z, INFO]              106     956k          2        F   on _ITV_3078
-[2018-04-11T06:19:27Z, INFO]              106     957k          2        F   on _ITV_2142
-[2018-04-11T06:19:27Z, INFO]              106     958k        418        F   on _ITV_1132
-[2018-04-11T06:19:27Z, INFO]              106     959k          5        F   on _ITV_139
-[2018-04-11T06:19:27Z, INFO]              106     960k          2            on _ITV_142
-[2018-04-11T06:19:27Z, INFO]              106     961k         46            on _ITV_346
-[2018-04-11T06:19:27Z, INFO]              106     962k         29            on _ITV_2323
-[2018-04-11T06:19:27Z, INFO]              106     963k         52        F   on _ITV_3158
-[2018-04-11T06:19:27Z, INFO]              106     964k          2            on _ITV_2285
-[2018-04-11T06:19:28Z, INFO]              106     965k        123            on _ITV_47
-[2018-04-11T06:19:28Z, INFO]              106     966k        261        F   on _ITV_1090
-[2018-04-11T06:19:28Z, INFO]              106     967k          2            on _ITV_970
-[2018-04-11T06:19:28Z, INFO]              106     968k          2        F   on _ITV_1599
-[2018-04-11T06:19:28Z, INFO]  ! ----------------------------------------------------------------------------
-[2018-04-11T06:19:28Z, INFO]  ! Search terminated by limit, 6 solutions found.
-[2018-04-11T06:19:28Z, INFO]  ! Best objective         : 106 (gap is 15.09%)
-[2018-04-11T06:19:28Z, INFO]  ! Best bound             : 90
-[2018-04-11T06:19:28Z, INFO]  ! Number of branches     : 968552
-[2018-04-11T06:19:28Z, INFO]  ! Number of fails        : 371025
-[2018-04-11T06:19:28Z, INFO]  ! Total memory usage     : 31.6 MB (30.2 MB CP Optimizer + 1.3 MB Concert)
-[2018-04-11T06:19:28Z, INFO]  ! Time spent in solve    : 120.04s (119.88s engine + 0.15s extraction)
-[2018-04-11T06:19:28Z, INFO]  ! Search speed (br. / s) : 8078.7
-[2018-04-11T06:19:28Z, INFO]  ! ----------------------------------------------------------------------------
-[2018-04-11T06:19:28Z, INFO] solve + export of all intermediate solutions done in 120.725025177 secs
+[2018-04-11T07:09:18Z, INFO] * building wado model
+[2018-04-11T07:09:18Z, INFO] model building done in 0.407691001892 secs
+[2018-04-11T07:09:18Z, INFO] * running wado model
+[2018-04-11T07:09:18Z, INFO] WARNING: Number of workers has been reduced to 2 to comply with platform limitations.
+[2018-04-11T07:09:19Z, INFO] stream:7:4: Warning: Reading file created by CP Optimizer version 12.7.0.0 into CP Optimizer version 12.8.0.0.
+[2018-04-11T07:09:19Z, INFO] stream:7:4: Warning: Making reader backward compatible with version 12.7.0.0.
+[2018-04-11T07:09:19Z, INFO]  ! ----------------------------------------------------------------------------
+[2018-04-11T07:09:19Z, INFO]  ! Minimization problem - 3339 variables, 1613 constraints
+[2018-04-11T07:09:19Z, INFO]  ! TimeLimit            = 20
+[2018-04-11T07:09:19Z, INFO]  ! Workers              = 2
+[2018-04-11T07:09:19Z, INFO]  ! Initial process time : 0.27s (0.27s extraction + 0.00s propagation)
+[2018-04-11T07:09:19Z, INFO]  !  . Log search space  : 29009.9 (before), 29009.9 (after)
+[2018-04-11T07:09:19Z, INFO]  !  . Memory usage      : 28.4 MB (before), 28.4 MB (after)
+[2018-04-11T07:09:19Z, INFO]  ! Using parallel search with 2 workers.
+[2018-04-11T07:09:19Z, INFO]  ! ----------------------------------------------------------------------------
+[2018-04-11T07:09:19Z, INFO]  !          Best Branches  Non-fixed    W       Branch decision
+[2018-04-11T07:09:19Z, INFO]                         0       3339                 -
+[2018-04-11T07:09:19Z, INFO]  + New bound is 90
+[2018-04-11T07:09:19Z, INFO]  ! Using temporal relaxation.
+[2018-04-11T07:09:19Z, INFO]                         0       2579    1            -
+[2018-04-11T07:09:19Z, INFO]  + New bound is 91
+[2018-04-11T07:09:19Z, INFO]  *          1906      773  0.70s        1      (gap is 95.23%)
+[2018-04-11T07:09:20Z, INFO] Objective values: (1906,)
+[2018-04-11T07:09:20Z, INFO] time to complete all operations
+[2018-04-11T07:09:20Z, INFO] -->
+[2018-04-11T07:09:20Z, INFO] 1906
+[2018-04-11T07:09:20Z, INFO] solution export done in 0.0305669307709 secs
+[2018-04-11T07:09:21Z, INFO]             1906     1001        240    1   F   on _ITV_142
+[2018-04-11T07:09:21Z, INFO]             1906     1001        240    2   F   on _ITV_142
+[2018-04-11T07:09:21Z, INFO]  *           109     1455  2.04s        1      (gap is 16.51%)
+[2018-04-11T07:09:21Z, INFO] Objective values: (109,)
+[2018-04-11T07:09:21Z, INFO] time to complete all operations
+[2018-04-11T07:09:21Z, INFO] -->
+[2018-04-11T07:09:21Z, INFO] 109
+[2018-04-11T07:09:21Z, INFO] solution export done in 0.0340330600739 secs
+[2018-04-11T07:09:22Z, INFO]              109     2000          3    1       on _ITV_1043
+[2018-04-11T07:09:22Z, INFO]              109     3000       1034    1       on _ITV_848
+[2018-04-11T07:09:22Z, INFO]              109     2000          3    2       on _ITV_1944
+[2018-04-11T07:09:22Z, INFO]              109     3000       1066    2       on _ITV_3245
+[2018-04-11T07:09:24Z, INFO]              109     4000         51    1       on _ITV_978
+[2018-04-11T07:09:24Z, INFO]              109     5000       1042    1       on _ITV_2288
+[2018-04-11T07:09:24Z, INFO]              109     6000        117    1   F   on _ITV_3098
+[2018-04-11T07:09:24Z, INFO]              109     7000         51    1       on _ITV_2410
+[2018-04-11T07:09:24Z, INFO]              109     4000         51    2       on _ITV_901
+[2018-04-11T07:09:24Z, INFO]              109     5000       1085    2       on _ITV_2716
+[2018-04-11T07:09:24Z, INFO]              109     6000        138    2   F   on _ITV_149
+[2018-04-11T07:09:24Z, INFO]              109     7000         51    2       on _ITV_2743
+[2018-04-11T07:09:26Z, INFO]              109     8000         51    1       on _ITV_2860
+[2018-04-11T07:09:26Z, INFO]              109     9000        830    1       on _ITV_2636
+[2018-04-11T07:09:26Z, INFO]  ! Time = 6.55s, Average fail depth = 236, Memory usage = 73.0 MB
+[2018-04-11T07:09:26Z, INFO]  ! Current bound is 91 (gap is 16.51%)
+[2018-04-11T07:09:26Z, INFO]  !          Best Branches  Non-fixed    W       Branch decision
+[2018-04-11T07:09:26Z, INFO]              109    10000        464    1       on _ITV_1197
+[2018-04-11T07:09:26Z, INFO]              109    11000        330    1       on _ITV_2244
+[2018-04-11T07:09:26Z, INFO]              109     8000         51    2       on _ITV_2742
+[2018-04-11T07:09:26Z, INFO]              109     9000        918    2       on _ITV_2306
+[2018-04-11T07:09:26Z, INFO]              109    10000        438    2       on _ITV_3246
+[2018-04-11T07:09:26Z, INFO]              109    11000        345    2   F   on _ITV_940
+[2018-04-11T07:09:27Z, INFO]              109    12000        330    1       on _ITV_2739
+[2018-04-11T07:09:27Z, INFO]              109    13000       1363    1       on _ITV_1836
+[2018-04-11T07:09:27Z, INFO]              109    14000        160    1   F   on _ITV_129
+[2018-04-11T07:09:27Z, INFO]              109    12000        350    2       on _ITV_46
+[2018-04-11T07:09:27Z, INFO]              109    13000       1477    2       on _ITV_1178
+[2018-04-11T07:09:27Z, INFO]              109    14000        128    2       on _ITV_508
+[2018-04-11T07:09:27Z, INFO]  *           108    14407  7.87s        1      (gap is 15.74%)
+[2018-04-11T07:09:27Z, INFO] Objective values: (108,)
+[2018-04-11T07:09:27Z, INFO] time to complete all operations
+[2018-04-11T07:09:27Z, INFO] -->
+[2018-04-11T07:09:27Z, INFO] 108
+[2018-04-11T07:09:27Z, INFO] solution export done in 0.0475091934204 secs
+[2018-04-11T07:09:27Z, INFO]              108    15000          2    1       on _ITV_1713
+[2018-04-11T07:09:27Z, INFO]              108    15000          2    2       on _ITV_771
+[2018-04-11T07:09:29Z, INFO]              108    16000         57    1       on _ITV_984
+[2018-04-11T07:09:29Z, INFO]              108    17000        952    1       on _ITV_890
+[2018-04-11T07:09:29Z, INFO]              108    18000        126    1   F   on _ITV_2072
+[2018-04-11T07:09:29Z, INFO]              108    19000        126    1       on _ITV_939
+[2018-04-11T07:09:29Z, INFO]              108    20000        252    1       on _ITV_1769
+[2018-04-11T07:09:29Z, INFO]  ! Time = 10.26s, Average fail depth = 406, Memory usage = 73.6 MB
+[2018-04-11T07:09:29Z, INFO]  ! Current bound is 91 (gap is 15.74%)
+[2018-04-11T07:09:29Z, INFO]  !          Best Branches  Non-fixed    W       Branch decision
+[2018-04-11T07:09:29Z, INFO]              108    21000         57    1   F   on _ITV_92
+[2018-04-11T07:09:29Z, INFO]              108    16000         57    2       on _ITV_1174
+[2018-04-11T07:09:29Z, INFO]              108    17000       1095    2       on _ITV_2036
+[2018-04-11T07:09:29Z, INFO]              108    18000        141    2   F   on _ITV_714
+[2018-04-11T07:09:29Z, INFO]              108    19000         48    2       on _ITV_3040
+[2018-04-11T07:09:29Z, INFO]              108    20000         50    2       on _ITV_2590
+[2018-04-11T07:09:29Z, INFO]              108    21000         57    2       on _ITV_120
+[2018-04-11T07:09:30Z, INFO]              108    22000         58    1       on _ITV_891
+[2018-04-11T07:09:30Z, INFO]              108    23000        770    1       on _ITV_2736
+[2018-04-11T07:09:30Z, INFO]              108    24000        682    1       on _ITV_2948
+[2018-04-11T07:09:30Z, INFO]              108    25000        324    1       on _ITV_1786
+[2018-04-11T07:09:30Z, INFO]              108    26000        323    1       on _ITV_628
+[2018-04-11T07:09:30Z, INFO]              108    27000        327    1   F   on _ITV_3278
+[2018-04-11T07:09:30Z, INFO]              108    22000         57    2       on _ITV_3187
+[2018-04-11T07:09:30Z, INFO]              108    23000        799    2       on _ITV_1769
+[2018-04-11T07:09:30Z, INFO]              108    24000        431    2       on _ITV_2180
+[2018-04-11T07:09:30Z, INFO]              108    25000        323    2   F   on _ITV_2253
+[2018-04-11T07:09:30Z, INFO]              108    26000        323    2   F   on _ITV_3117
+[2018-04-11T07:09:30Z, INFO]              108    27000        326    2   F   on _ITV_1809
+[2018-04-11T07:09:32Z, INFO]              108    28000        337    1       on _ITV_992
+[2018-04-11T07:09:32Z, INFO]  ! Time = 12.60s, Average fail depth = 473, Memory usage = 73.6 MB
+[2018-04-11T07:09:32Z, INFO]  ! Current bound is 91 (gap is 15.74%)
+[2018-04-11T07:09:32Z, INFO]  !          Best Branches  Non-fixed    W       Branch decision
+[2018-04-11T07:09:32Z, INFO]              108    29000       1029    1       on _ITV_1868
+[2018-04-11T07:09:32Z, INFO]              108    30000        131    1   F   on _ITV_2905
+[2018-04-11T07:09:32Z, INFO]              108    31000         48    1       on _ITV_606
+[2018-04-11T07:09:32Z, INFO]              108    32000         48    1       on _ITV_593
+[2018-04-11T07:09:32Z, INFO]              108    33000         57    1       on _ITV_115
+[2018-04-11T07:09:32Z, INFO]              108    28000        325    2       on _ITV_800
+[2018-04-11T07:09:32Z, INFO]              108    29000       1355    2       on _ITV_1628
+[2018-04-11T07:09:32Z, INFO]              108    30000        135    2   F   on _ITV_135
+[2018-04-11T07:09:32Z, INFO]              108    31000        134    2       on _ITV_866
+[2018-04-11T07:09:32Z, INFO]              108    32000        140    2   F   on _ITV_48
+[2018-04-11T07:09:32Z, INFO]              108    33000         57    2   F   on _ITV_2449
+[2018-04-11T07:09:32Z, INFO]              108    33289         57    1            -
+[2018-04-11T07:09:32Z, INFO]  + New bound is 100 (gap is 7.41%)
+[2018-04-11T07:09:32Z, INFO]              108    34000          2    1   F   on _ITV_1547
+[2018-04-11T07:09:32Z, INFO]              108    35000          2    1   F   on _ITV_142
+[2018-04-11T07:09:32Z, INFO]  ! Using failure-directed search.
+[2018-04-11T07:09:32Z, INFO]              108    34000         57    2       on _ITV_848
+[2018-04-11T07:09:32Z, INFO]              108    35000         57    2       on _ITV_2945
+[2018-04-11T07:09:32Z, INFO]              108    36000          2    2   F   on _ITV_1219
+[2018-04-11T07:09:32Z, INFO]              108    37000          2    2   F   on _ITV_149
+[2018-04-11T07:09:32Z, INFO]              108    36000          2    1       on _ITV_967
+[2018-04-11T07:09:32Z, INFO]              108    37000          2    1       on _ITV_3067
+[2018-04-11T07:09:32Z, INFO]  ! Time = 13.23s, Average fail depth = 367, Memory usage = 70.6 MB
+[2018-04-11T07:09:32Z, INFO]  ! Current bound is 100 (gap is 7.41%)
+[2018-04-11T07:09:32Z, INFO]  !          Best Branches  Non-fixed    W       Branch decision
+[2018-04-11T07:09:33Z, INFO]              108    38000          2    2       on _ITV_1137
+[2018-04-11T07:09:33Z, INFO]              108    39000          2    2       on _ITV_788
+[2018-04-11T07:09:33Z, INFO]              108    40000          2    2   F   on _ITV_2287
+[2018-04-11T07:09:33Z, INFO]              108    41000         35    2   F   on _ITV_1137
+[2018-04-11T07:09:33Z, INFO]              108    38000          2    1       on _ITV_843
+[2018-04-11T07:09:33Z, INFO]              108    39000          2    1   F   on _ITV_1356
+[2018-04-11T07:09:33Z, INFO]              108    40000          2    1   F   on _ITV_2827
+[2018-04-11T07:09:33Z, INFO]              108    42000          2    2   F   on _ITV_2372
+[2018-04-11T07:09:33Z, INFO]              108    43000          2    2       on _ITV_361
+[2018-04-11T07:09:33Z, INFO]              108    44000         64    2   F   on _ITV_2189
+[2018-04-11T07:09:33Z, INFO]              108    45000         69    2   F   on _ITV_2636
+[2018-04-11T07:09:33Z, INFO]              108    46000         13    2   F   on _ITV_2490
+[2018-04-11T07:09:33Z, INFO]              108    47000         27    2       on _ITV_141
+[2018-04-11T07:09:33Z, INFO]              108    41000       2558    1   F   on _ITV_1827
+[2018-04-11T07:09:34Z, INFO]              108    48000          2    2       on _ITV_135
+[2018-04-11T07:09:34Z, INFO]              108    49000        147    2       on _ITV_2843
+[2018-04-11T07:09:34Z, INFO]              108    50000          2    2       on _ITV_558
+[2018-04-11T07:09:34Z, INFO]              108    51000          2    2       on _ITV_1658
+[2018-04-11T07:09:34Z, INFO]              108    52000          2    2   F   on _ITV_119
+[2018-04-11T07:09:34Z, INFO]              108    42000       2442    1   F   on _ITV_153
+[2018-04-11T07:09:34Z, INFO]  ! Time = 14.77s, Average fail depth = 239, Memory usage = 71.3 MB
+[2018-04-11T07:09:34Z, INFO]  ! Current bound is 100 (gap is 7.41%)
+[2018-04-11T07:09:34Z, INFO]  !          Best Branches  Non-fixed    W       Branch decision
+[2018-04-11T07:09:34Z, INFO]              108    53000          2    2   F   on _ITV_1836
+[2018-04-11T07:09:34Z, INFO]              108    54000         59    2   F   on _ITV_1725
+[2018-04-11T07:09:34Z, INFO]              108    55000          2    2   F   on _ITV_1314
+[2018-04-11T07:09:34Z, INFO]              108    56000          2    2   F   on _ITV_132
+[2018-04-11T07:09:34Z, INFO]              108    43000       2559    1   F   on _ITV_105
+[2018-04-11T07:09:35Z, INFO]              108    57000          2    2       on _ITV_50
+[2018-04-11T07:09:35Z, INFO]              108    58000        108    2       on _ITV_2721
+[2018-04-11T07:09:35Z, INFO]              108    59000          2    2       on _ITV_1814
+[2018-04-11T07:09:35Z, INFO]              108    60000          2    2   F   on _ITV_140
+[2018-04-11T07:09:35Z, INFO]              108    61000          2    2   F   on _ITV_1219
+[2018-04-11T07:09:35Z, INFO]              108    44000       2460    1   F   on _ITV_68
+[2018-04-11T07:09:35Z, INFO]              108    62000          1    2   F   on _ITV_1219
+[2018-04-11T07:09:35Z, INFO]              108    63000          2    2       on _ITV_2605
+[2018-04-11T07:09:35Z, INFO]              108    64000        180    2   F   on _ITV_1745
+[2018-04-11T07:09:35Z, INFO]              108    65000          1    2       on _ITV_487
+[2018-04-11T07:09:35Z, INFO]              108    45000       2460    1   F   on _ITV_44
+[2018-04-11T07:09:36Z, INFO]              108    66000          2    2       on _ITV_889
+[2018-04-11T07:09:36Z, INFO]              108    67000         15    2       on _ITV_2176
+[2018-04-11T07:09:36Z, INFO]              108    68000          2    2   F   on _ITV_2161
+[2018-04-11T07:09:36Z, INFO]              108    69000          2    2   F   on _ITV_2198
+[2018-04-11T07:09:36Z, INFO]  ! Time = 16.47s, Average fail depth = 180, Memory usage = 72.1 MB
+[2018-04-11T07:09:36Z, INFO]  ! Current bound is 100 (gap is 7.41%)
+[2018-04-11T07:09:36Z, INFO]  !          Best Branches  Non-fixed    W       Branch decision
+[2018-04-11T07:09:36Z, INFO]              108    70000          2    2   F   on _ITV_1757
+[2018-04-11T07:09:36Z, INFO]              108    71000          2    2   F   on _ITV_2364
+[2018-04-11T07:09:36Z, INFO]              108    46000       2460    1   F   on _ITV_12
+[2018-04-11T07:09:36Z, INFO]              108    72000          1    2   F   on _ITV_3066
+[2018-04-11T07:09:36Z, INFO]              108    73000          2    2       on _ITV_1645
+[2018-04-11T07:09:36Z, INFO]              108    74000         69    2       on _ITV_938
+[2018-04-11T07:09:36Z, INFO]              108    75000          1    2       on _ITV_3296
+[2018-04-11T07:09:36Z, INFO]              108    76000         75    2   F   on _ITV_1917
+[2018-04-11T07:09:36Z, INFO]              108    77000          2    2       on _ITV_2647
+[2018-04-11T07:09:36Z, INFO]              108    47000        437    1       on _ITV_18
+[2018-04-11T07:09:36Z, INFO]              108    48000        309    1       on _ITV_2565
+[2018-04-11T07:09:37Z, INFO]              108    78000          1    2       on _ITV_3238
+[2018-04-11T07:09:37Z, INFO]              108    79000          2    2       on _ITV_781
+[2018-04-11T07:09:37Z, INFO]              108    49000          2    1   F   on _ITV_951
+[2018-04-11T07:09:37Z, INFO]              108    80000          1    2       on _ITV_46
+[2018-04-11T07:09:37Z, INFO]              108    81000        808    2       on _ITV_338
+[2018-04-11T07:09:37Z, INFO]              108    82000          1    2   F   on _ITV_1505
+[2018-04-11T07:09:37Z, INFO]              108    83000          2    2   F   on _ITV_107
+[2018-04-11T07:09:37Z, INFO]              108    50000          2    1       on _ITV_1199
+[2018-04-11T07:09:37Z, INFO]              108    51000          2    1   F   on _ITV_1421
+[2018-04-11T07:09:37Z, INFO]  ! Time = 18.40s, Average fail depth = 151, Memory usage = 71.2 MB
+[2018-04-11T07:09:37Z, INFO]  ! Current bound is 100 (gap is 7.41%)
+[2018-04-11T07:09:37Z, INFO]  !          Best Branches  Non-fixed    W       Branch decision
+[2018-04-11T07:09:37Z, INFO]              108    52000          2    1       on _ITV_121
+[2018-04-11T07:09:39Z, INFO]              108    84000          2    2       on _ITV_1661
+[2018-04-11T07:09:39Z, INFO]              108    85000          1    2       on _ITV_155
+[2018-04-11T07:09:39Z, INFO]              108    53000          2    1       on _ITV_3057
+[2018-04-11T07:09:39Z, INFO]              108    54000          2    1   F   on _ITV_1505
+[2018-04-11T07:09:39Z, INFO]              108    55000          2    1   F   on _ITV_46
+[2018-04-11T07:09:39Z, INFO]              108    86000          1    2       on _ITV_134
+[2018-04-11T07:09:39Z, INFO]  ! ----------------------------------------------------------------------------
+[2018-04-11T07:09:39Z, INFO]  ! Search terminated by limit, 3 solutions found.
+[2018-04-11T07:09:39Z, INFO]  ! Best objective         : 108 (gap is 7.41%)
+[2018-04-11T07:09:39Z, INFO]  ! Best bound             : 100
+[2018-04-11T07:09:39Z, INFO]  ! Number of branches     : 141000
+[2018-04-11T07:09:39Z, INFO]  ! Number of fails        : 59053
+[2018-04-11T07:09:39Z, INFO]  ! Total memory usage     : 72.7 MB (71.3 MB CP Optimizer + 1.3 MB Concert)
+[2018-04-11T07:09:39Z, INFO]  ! Time spent in solve    : 20.04s (19.77s engine + 0.27s extraction)
+[2018-04-11T07:09:39Z, INFO]  ! Search speed (br. / s) : 7132.0
+[2018-04-11T07:09:39Z, INFO]  ! ----------------------------------------------------------------------------
+[2018-04-11T07:09:39Z, INFO] solve + export of all intermediate solutions done in 20.621352911 secs

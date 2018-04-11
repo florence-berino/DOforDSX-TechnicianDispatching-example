@@ -27,6 +27,10 @@ def helper_int64_convert(arg):
 def helper_convert_int_series_to_date(sched_int_series):
     return pd.to_datetime(sched_int_series * secs_per_day / duration_units_per_day / schedUnitPerDurationUnit * nanosecs_per_sec + horizon_start_date.value, errors='coerce')
 
+# Return index values of a multi-index from index name
+def helper_get_level_values(df, column_name):
+    return df.index.get_level_values(df.index.names.index(column_name))
+
 # Convert a duration Series to a Series representing the number of scheduling units
 def helper_convert_duration_series_to_scheduling_unit(duration_series, nb_input_data_units_per_day):
     return helper_int64_convert(duration_series * duration_units_per_day * schedUnitPerDurationUnit / nb_input_data_units_per_day)
@@ -53,16 +57,19 @@ def helper_add_labeled_cpo_constraint(mdl, expr, label, context=None, columns=No
 
 
 # Data model definition for each table
-# Data collection: list_of_Operation ['duration', 'id']
+# Data collection: list_of_Operation ['duration', 'id', 'technician', 'type']
 # Data collection: list_of_Technician ['Id']
+# Data collection: list_of_Type ['id']
 
 # Create a pandas Dataframe for each data table
 list_of_Operation = inputs['operation']
-list_of_Operation = list_of_Operation[['duration', 'id']].copy()
-list_of_Operation.rename(columns={'duration': 'duration', 'id': 'id'}, inplace=True)
+list_of_Operation = list_of_Operation[['duration', 'id', 'technician', 'type']].copy()
+list_of_Operation.rename(columns={'duration': 'duration', 'id': 'id', 'technician': 'technician', 'type': 'type'}, inplace=True)
 list_of_Technician = inputs['technician']
 list_of_Technician = list_of_Technician[['Id']].copy()
 list_of_Technician.rename(columns={'Id': 'Id'}, inplace=True)
+# --- Handling table for implicit concept
+list_of_Type = pd.DataFrame(inputs['operation']['type'].unique(), columns=['id']).dropna()
 
 # Convert all input durations to internal time unit
 list_of_Operation['duration'] = helper_convert_duration_series_to_scheduling_unit(list_of_Operation.duration, 1440.0)
@@ -74,6 +81,9 @@ list_of_Operation.index.name = 'id_of_Operation'
 list_of_Technician.set_index('Id', inplace=True)
 list_of_Technician.sort_index(inplace=True)
 list_of_Technician.index.name = 'id_of_Technician'
+list_of_Type.set_index('id', inplace=True)
+list_of_Type.sort_index(inplace=True)
+list_of_Type.index.name = 'id_of_Type'
 
 # Create data frame as cartesian product of: Operation x Technician
 list_of_SchedulingAssignment = pd.DataFrame(index=pd.MultiIndex.from_product((list_of_Operation.index, list_of_Technician.index), names=['id_of_Operation', 'id_of_Technician']))
@@ -137,6 +147,34 @@ def build_model():
     for row in list_of_Operation.itertuples(index=True):
         helper_add_labeled_cpo_constraint(mdl, row.taskAbsenceVar != 1, 'All operations are present', row)
     
+    # [ST_4] Constraint : cTaskIsFirst_cTaskIsFirst
+    # Each assigned operation where type is start must be performed first by assigned technicians
+    # Label: CT_4_Each_assigned_operation_where_type_is_start_must_be_performed_first_by_assigned_technicians
+    groupbyLevels = [list_of_SchedulingAssignment.index.names.index(name) for name in list_of_Technician.index.names]
+    groupby_SchedulingAssignment = list_of_SchedulingAssignment.interval.groupby(level=groupbyLevels).apply(list).to_frame(name='interval')
+    list_of_Technician['sequence_var'] = groupby_SchedulingAssignment.apply(lambda row: sequence_var(row.interval), axis=1)
+    filtered_Operation = list_of_Operation[list_of_Operation.type == 'start'].copy()
+    join_SchedulingAssignment_Operation = list_of_SchedulingAssignment.join(filtered_Operation.type, how='inner')
+    join_SchedulingAssignment_Operation_Technician = join_SchedulingAssignment_Operation.join(list_of_Technician.sequence_var, how='inner')
+    for row in join_SchedulingAssignment_Operation_Technician.itertuples(index=True):
+        helper_add_labeled_cpo_constraint(mdl, first(row.sequence_var, row.interval), 'Each assigned operation where type is start must be performed first by assigned technicians', row)
+    
+    # [ST_5] Constraint : cTaskIsLast_cTaskIsLast
+    # Each assigned operation where type is end must be performed last by assigned technicians
+    # Label: CT_5_Each_assigned_operation_where_type_is_end_must_be_performed_last_by_assigned_technicians
+    filtered_Operation = list_of_Operation[list_of_Operation.type == 'end'].copy()
+    join_SchedulingAssignment_Operation = list_of_SchedulingAssignment.join(filtered_Operation.type, how='inner')
+    join_SchedulingAssignment_Operation_Technician = join_SchedulingAssignment_Operation.join(list_of_Technician.sequence_var, how='inner')
+    for row in join_SchedulingAssignment_Operation_Technician.itertuples(index=True):
+        helper_add_labeled_cpo_constraint(mdl, last(row.sequence_var, row.interval), 'Each assigned operation where type is end must be performed last by assigned technicians', row)
+    
+    # [ST_6] Constraint : cSchedulingAssignmentCompatibilityConstraintOnPair_cCategoryCompatibilityConstraintOnPair
+    # For each technician to operation assignment, assigned technician includes technician of assigned operation
+    # Label: CT_6_For_each_technician_to_operation_assignment__assigned_technician_includes_technician_of_assigned_operation
+    join_SchedulingAssignment_Operation = list_of_SchedulingAssignment.join(list_of_Operation.technician, how='inner')
+    filtered_SchedulingAssignment_Operation = join_SchedulingAssignment_Operation.loc[helper_get_level_values(join_SchedulingAssignment_Operation, 'id_of_Technician') == join_SchedulingAssignment_Operation.technician].copy()
+    helper_add_labeled_cpo_constraint(mdl, mdl.sum(join_SchedulingAssignment_Operation.schedulingAssignmentVar[(join_SchedulingAssignment_Operation.technician.notnull()) & (~join_SchedulingAssignment_Operation.index.isin(filtered_SchedulingAssignment_Operation.index.values))]) == 0, 'For each technician to operation assignment, assigned technician includes technician of assigned operation')
+    
     # Scheduling internal structure
     groupbyLevels = [list_of_SchedulingAssignment.index.names.index(name) for name in list_of_Operation.index.names]
     groupby_SchedulingAssignment = list_of_SchedulingAssignment.interval.groupby(level=groupbyLevels).apply(list).to_frame(name='interval')
@@ -152,10 +190,8 @@ def build_model():
         mdl.add(row.schedulingAssignmentVar <= row.taskPresenceVar)
     
     # no overlap
-    groupbyLevels = [list_of_SchedulingAssignment.index.names.index(name) for name in list_of_Technician.index.names]
-    groupby_SchedulingAssignment = list_of_SchedulingAssignment.interval.groupby(level=groupbyLevels).apply(list).to_frame(name='interval')
-    for row in groupby_SchedulingAssignment.reset_index().itertuples(index=False):
-        mdl.add(no_overlap(row.interval))
+    for row in list_of_Technician.reset_index().itertuples(index=False):
+        mdl.add(no_overlap(row.sequence_var))
 
 
     return mdl
@@ -163,7 +199,7 @@ def build_model():
 
 def solve_model(mdl):
     params = CpoParameters()
-    params.TimeLimit = 120
+    params.TimeLimit = 20
     solver = CpoSolver(mdl, params=params, trace_log=True)
     try:
         for i, msol in enumerate(solver):
