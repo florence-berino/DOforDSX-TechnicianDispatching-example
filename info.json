@@ -1,0 +1,9 @@
+{
+	"provider": ["IBM"], 
+	"name":  "DO for DSX Technician Dispatching example" ,
+	"model": [ "CPLEX" ],
+	"development": [ "Python" ],
+	"category": [ {"DOforDSX":["DO for DSX"]} ],
+	"industry": [ "Energy" ],
+	"abstract": "According to the operations skills and distance between operations, optimize technician dispatching."
+}
