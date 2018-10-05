@@ -1,9 +1,9 @@
 {
 	"provider": ["IBM"], 
-	"name":  "DO for DSX Technician Dispatching example" ,
+	"name":  "DO for WS Technician Dispatching example" ,
 	"model": [ "CPLEX" ],
 	"development": [ "Modeling Assistant" ],
-	"category": [ {"DOforDSX":["DO for DSX"]} ],
+	"category": [ {"DOforWS":["DO for WS"]} ],
 	"industry": [ "Energy" ],
 	"abstract": "According to the operations skills and distance between operations, optimize technician dispatching."
 }
